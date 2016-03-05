@@ -8,7 +8,8 @@
         "-code_tomorrow_scheme",
         "-search-pro",
         "-section",
-        "sharing"
+        "sharing",
+        "versions"
     ],
     "pluginsConfig": {
         "sharing": {
