@@ -1,11 +1,11 @@
 # Вводная часть.
 
-Общая структура документации
+* Общая структура документации
+ * [Raspil. Разработка](raspil/raspil_dev.md)
+ * [Raspil. Использование](raspil/raspil_used.md)
 
-[Raspil. Разработка](raspil/raspil_dev.md)
-[Raspil. Использование](raspil/raspil_used.md)
 
-Сопутствующие проекты:
+ Сопутствующие проекты:
 
 * PrintFill - автоматизация на рабочих местах.
 * BarcodeRegister - сканер штрих-кода Casio.
