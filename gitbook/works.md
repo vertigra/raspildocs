@@ -36,7 +36,7 @@ theme: the theme for the editor, the default is 'chrome'.
 
 Пример работы.
 
-{%ace edit=false, lang='csharp'%}
+{%ace edit=false, lang='csharp', check=true, theme='monokai'%}
 
 // test syntax higlayting
 
