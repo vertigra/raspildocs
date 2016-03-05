@@ -15,7 +15,7 @@
     ],
     "pluginsConfig": {
         "sharing": {
-            "facebook": true,
+            "facebook": false,
             "twitter": true,
             "google": false,
             "weibo": false,
