@@ -1,5 +1,7 @@
 # Вводная часть.
 
+Привет МАКА
+
 * Общая структура документации
  * [Raspil. Разработка](raspil/raspil_dev.md)
  * [Raspil. Использование](raspil/raspil_used.md)
