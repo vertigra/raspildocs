@@ -9,7 +9,8 @@
         "-search-pro",
         "-section",
         "sharing",
-        "versions"
+        "versions",
+        "tocstyles"
     ],
     "pluginsConfig": {
         "sharing": {
