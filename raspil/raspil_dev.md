@@ -4,6 +4,7 @@
 
 Структура ветки trunk SVN репозитария разработки проекта Raspil.
 
+```
 trunk
  |
  |- Archive 
@@ -31,7 +32,7 @@ trunk
    |- ZedGraph
  |- Wiki
  |- WinCE
- 
+ ```
  ---
 	
 
