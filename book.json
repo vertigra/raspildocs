@@ -2,7 +2,7 @@
     "plugins": [
         "todo",
         "include",
-        "-copy-code-button",
+        "copy-code-button",
         "ace",
         "-code_tomorrow_scheme",
         "-search-pro",
