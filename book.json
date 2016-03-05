@@ -11,5 +11,9 @@
         "versions",
         "tocstyles",
         "-theme-official"
-    ]
+    ],
+    "pluginsConfig": {
+        "versions": {
+            "type": "branches"
+        }
 }
