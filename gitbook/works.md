@@ -40,7 +40,7 @@ theme: the theme for the editor, the default is 'chrome'.
 
 // подсветка кода C#
 // параметры редактора
-// {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
+// ```{%ace edit=false, lang='csharp', check=true, theme='coffee'%}```
 
   public partial class Form1 : Form
   {
