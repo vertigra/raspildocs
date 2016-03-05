@@ -12,7 +12,7 @@
         "tocstyles",
         "-theme-official"
     ],
-    "pluginsConfig": {
+     "pluginsConfig": {
         "versions": {
             "gitbookConfigURL": "https://raw.githubusercontent.com/rackt/history/gh-pages/book.json",
             "options": [
@@ -27,4 +27,5 @@
                 }
             ]
         }
+    }   
 }
