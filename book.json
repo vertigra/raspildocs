@@ -7,12 +7,7 @@
         "-code_tomorrow_scheme",
         "-search-pro",
         "-section",
-        "-theme-official",
-        "-language-picker"
+        "-theme-official"
     ],
-    "pluginsConfig": {
-        "-language-picker": {
-            "grid-columns": 3
-        }
-    }
+    "pluginsConfig": {}
 }
