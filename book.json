@@ -8,10 +8,10 @@
         "-search-pro",
         "-section",
         "-theme-official",
-        "language-picker"
+        "-language-picker"
     ],
     "pluginsConfig": {
-        "language-picker": {
+        "-language-picker": {
             "grid-columns": 3
         }
     }
