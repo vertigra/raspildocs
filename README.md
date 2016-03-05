@@ -2,7 +2,8 @@
 
 Общая структура документации
 
-[Raspil. Разработка](raspil_razrabotka.md)
+[Raspil. Разработка](raspil\raspil_dev.md)
+[Raspil. Использование](raspil\raspil_used.md)
 
 Сопутствующие проекты:
 
