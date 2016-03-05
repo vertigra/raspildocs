@@ -1,7 +1,7 @@
 # Структура документации
 ---
 
-* [Водная часть.](README.md)
+* [Вводная часть.](README.md)
 * [Raspil. Разработка.](raspil/raspil_dev.md)
 * [Raspil. Использование.](raspil/raspil_used.md)
 * [Cупер Окна. Разработка.](sw/sw_dev.md)
