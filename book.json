@@ -11,7 +11,8 @@
         "tocstyles",
         "-theme-official"
     ],
-     "pluginsConfig": {
-    "tocstyles" : [ "", "cjk-ideographic", "decimal-leading-zero" ]
-  }
+    "pluginsConfig": 
+     {
+     "tocstyles" : [ "", "cjk-ideographic", "decimal-leading-zero" ]
+     }
 }
