@@ -1,0 +1,13 @@
+{
+    "plugins": [
+        "todo",
+        "-versioning",
+        "-include",
+        "-copy-code-button",
+        "ace",
+        "-code_tomorrow_scheme",
+        "search-pro",
+        "-section"
+    ],
+    "pluginsConfig": {}
+}
