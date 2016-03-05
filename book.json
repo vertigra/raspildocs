@@ -8,11 +8,6 @@
         "-code_tomorrow_scheme",
         "-search-pro",
         "-section",
-        "tocstyles",
         "-theme-official"
-    ],
-    "pluginsConfig": 
-     {
-     "tocstyles" : [ "", "cjk-ideographic", "decimal-leading-zero" ]
-     }
+    ]
 }
