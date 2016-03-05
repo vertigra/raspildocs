@@ -10,7 +10,8 @@
         "-section",
         "sharing",
         "versions",
-        "tocstyles"
+        "tocstyles",
+        "theme-official"
     ],
     "pluginsConfig": {
         "sharing": {
