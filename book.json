@@ -12,7 +12,7 @@
     ],
     "pluginsConfig": {
         "language-picker": {
-            "grid-columns": "10"
+            "grid-columns": "5"
         }
     }
 }
