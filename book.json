@@ -1,7 +1,6 @@
 {
     "plugins": [
         "todo",
-        "-versioning",
         "-include",
         "-copy-code-button",
         "ace",
@@ -9,5 +8,6 @@
         "-search-pro",
         "-section",
         "-theme-official"
-    ]
+    ],
+    "pluginsConfig": {}
 }
