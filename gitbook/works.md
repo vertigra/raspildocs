@@ -38,7 +38,9 @@ theme: the theme for the editor, the default is 'chrome'.
 
 {%ace edit=false, lang='csharp', check=true, theme='monokai'%}
 
-// test syntax higlayting
+// подсветка кода C#
+// параметры редактора
+// {%ace edit=false, lang='csharp', check=true, theme='monokai'%}
 
   public partial class Form1 : Form
   {
