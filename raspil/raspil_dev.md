@@ -1,3 +1,38 @@
 # Raspil. Разработка.
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+---
+
+Структура ветки trunk SVN репозитария разработки проекта Raspil.
+
+trunk
+ |
+ |- Archive 
+ |- Raspil
+   |- _archiv_code
+   |- BarcodeLib
+   |- BarcodeLibTest
+   |- bin
+   |- CatFabClient
+   |- CheckGraph
+   |- DataSets
+   |- DataSetsTest
+   |- ExcelReport
+   |- ExchangeDataWorker
+   |- ftp
+   |- Gma.UserActivityMonitor
+   |- packages
+   |- PaperlessWorkstation
+   |- Pila
+   |- PrintFill
+   |- Raspil
+   |- Raspil
+   |- TestData
+   |- WorkPriceUpdater
+   |- ZedGraph
+ |- Wiki
+ |- WinCE
+ 
+ ---
+	
+
+
