@@ -6,5 +6,5 @@
 * [Raspil. Использование.](raspil/raspil_used.md)
 * [Cупер Окна. Разработка.](sw/sw_dev.md)
 * [Супер Окна. Использование.](sw/sw_used.md)
-* GitBook. Приемы работы.
+* [GitBook. Приемы работы.](gitbook/works.md)
 
