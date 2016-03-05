@@ -9,7 +9,7 @@
         "-search-pro",
         "-section",
         "sharing",
-        "versions",
+        "-versions",
         "tocstyles",
         "theme-official"
     ],
