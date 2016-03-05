@@ -8,19 +8,8 @@
         "-code_tomorrow_scheme",
         "-search-pro",
         "-section",
-        "-sharing",
         "versions",
         "tocstyles",
         "-theme-official"
-    ],
-    "pluginsConfig": {
-        "sharing": {
-            "facebook": false,
-            "twitter": true,
-            "google": false,
-            "weibo": false,
-            "instapaper": false,
-            "vk": false,
-        }
-    }
+    ]
 }
