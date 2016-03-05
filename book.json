@@ -9,9 +9,9 @@
         "-search-pro",
         "-section",
         "sharing",
-        "-versions",
+        "versions",
         "tocstyles",
-        "theme-official"
+        "-theme-official"
     ],
     "pluginsConfig": {
         "sharing": {
