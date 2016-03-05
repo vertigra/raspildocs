@@ -10,5 +10,9 @@
         "-theme-official",
         "language-picker"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "language-picker": {
+            "grid-columns": "10"
+        }
+    }
 }
