@@ -1,7 +1,7 @@
 {
     "plugins": [
         "todo",
-        "-include",
+        "include",
         "-copy-code-button",
         "ace",
         "-code_tomorrow_scheme",
