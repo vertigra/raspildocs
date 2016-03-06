@@ -4,12 +4,15 @@
 
 * Среда разработки документации
  * [Visual Studio Code](https://code.visualstudio.com/Download)
- 
+
+
 * Плагины Gitbook
  * [Подсветка кода](syntax_highlighting.md)
- * [Copy Code to Clipboard on GitBook](https://plugins.gitbook.com/plugin/copy-code-button)
- Кнопка "Copy" для блогов текста выделеных тегом CODE
+ * [Copy Code to Clipboard on GitBook на gibook.com](https://plugins.gitbook.com/plugin/copy-code-button)  
+   [Copy Code to Clipboard on GitBook на github.com](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
  
- ![Пример кнопки COPY] (gitbook-plugin-copy-code-button.gif)
+ Кнопка "Copy" для блочного выделения кода \``` example code block \```
  
- * [Next]
+ ![Пример кнопки COPY](pic/gitbook-plugin-copy-code-button.gif)
+ 
+ !INCLUDE "syntax_highlighting.md"
