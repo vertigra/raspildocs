@@ -12,5 +12,9 @@
         "maxiang",
         "sitemap"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "sitemap": {
+            "hostname": "home.nesterof.com"
+        }
+    }
 }
