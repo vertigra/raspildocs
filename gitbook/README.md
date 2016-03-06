@@ -6,4 +6,4 @@
  * [Подсветка кода](syntax_highlighting.md)
 
 * Среда разработки документации
- * [IDE](dev_enviropment.md)  
+ * [IDE](dev_enviropment.md)
