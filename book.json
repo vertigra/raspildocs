@@ -8,7 +8,7 @@
         "-section",
         "-theme-official",
         "-light-it",
-        "codeblock-disable-glossary"
+        "-codeblock-disable-glossary"
     ],
     "pluginsConfig": {}
 }
