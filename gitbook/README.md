@@ -1,3 +1,6 @@
 # Приемы работы с GitBook
 
-* [Подсветка кода](gitbook/syntax_highlighting.md)
+---
+
+* Плагины
+ * [Подсветка кода](gitbook/syntax_highlighting.md)
