@@ -5,7 +5,6 @@
 Структура ветки trunk SVN репозитария разработки проекта Raspil.
 ```
 trunk
- |
  |- Archive 
  |- Raspil
    |- _archiv_code

@@ -1,3 +1,3 @@
-# Приемы работы с GitBook
+# РџСЂРёРµРјС‹ СЂР°Р±РѕС‚С‹ СЃ GitBook
 
-* [Работа с плагином подсветки кода](gitbook/syntax_highlighting.md)
+* [РџРѕРґСЃРІРµС‚РєР° РєРѕРґР°](gitbook/syntax_highlighting.md)
