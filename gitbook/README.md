@@ -32,3 +32,5 @@
  * [Markdown на aboutslack.info (ru)](http://aboutslack.info/pages/development/markdown-cheatsheet.html)
  * [Markdown на wiki](https://ru.wikipedia.org/wiki/Markdown)
  * [Шпаргалка по Markdown](markdown_cheatsheet.md)
+ 
+<!--todo добавиь соглашение по форматированию кода в документации и репозитарии  -->
