@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "todo",
+        "-todo",
         "copy-code-button",
         "ace",
         "-code_tomorrow_scheme",
