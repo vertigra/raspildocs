@@ -2,5 +2,8 @@
 
 ---
 
-* Плагины
- * [Подсветка кода](gitbook/syntax_highlighting.md)
+* Плагины Gitbook
+ * [Подсветка кода](syntax_highlighting.md)
+
+* Среда разработки документации
+ * [IDE](dev_enviropment.md)  
