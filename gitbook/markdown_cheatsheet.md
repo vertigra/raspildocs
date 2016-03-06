@@ -1,3 +1,1 @@
-# Тест
-
 ![Подсказка по Markdown](pic/markdown_cheatsheet.png)

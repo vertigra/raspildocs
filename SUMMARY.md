@@ -8,4 +8,4 @@
 * [Супер Окна. Использование.](sw/sw_used.md)
 * [GitBook. Приемы работы.](gitbook/README.md)
  * [Подсветка кода](gitbook/syntax_highlighting.md)
- * [Шпаргалка по Markdown](gitbook/pic/markdown_cheatsheet.md)
+ * [Шпаргалка по Markdown](gitbook/markdown_cheatsheet.md)
