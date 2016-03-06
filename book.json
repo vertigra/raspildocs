@@ -14,7 +14,7 @@
     ],
     "pluginsConfig": {
         "sitemap": {
-            "hostname": "home.nesterof.com"
+            "hostname": "http://raspil.nesterof.com/"
         }
     }
 }
