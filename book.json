@@ -10,10 +10,10 @@
         "-light-it",
         "-codeblock-disable-glossary",
         "maxiang",
-        "sitemap"
+        "-sitemap"
     ],
     "pluginsConfig": {
-        "sitemap": {
+        "-sitemap": {
             "hostname": "http://raspil.nesterof.com/"
         }
     }
