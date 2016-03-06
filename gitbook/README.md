@@ -15,4 +15,4 @@
  
  ![Пример кнопки COPY](pic/gitbook-plugin-copy-code-button.gif)
  
- [i]notice exp
+ [i] notice exp
