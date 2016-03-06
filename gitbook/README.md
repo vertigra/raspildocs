@@ -20,4 +20,4 @@
 
 
                    
-!INCLUDE "gitbook/syntax_highlighting.md"
+!include "gitbook/syntax_highlighting.md"
