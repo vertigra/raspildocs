@@ -17,4 +17,7 @@
           
 
 
-!INCLUDE "syntax_highlighting.md"
+
+
+                   
+!INCLUDE "gitbook/syntax_highlighting.md"
