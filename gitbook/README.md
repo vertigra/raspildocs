@@ -3,16 +3,32 @@
 ---
 
 * Среда разработки документации
+
  * [Visual Studio Code](https://code.visualstudio.com/Download)
 
 
 * Плагины Gitbook
- * [Подсветка кода](syntax_highlighting.md)
- * [Copy Code to Clipboard on GitBook на gibook.com](https://plugins.gitbook.com/plugin/copy-code-button)  
-   [Copy Code to Clipboard on GitBook на github.com](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
+ 
+ Плагины устанавливаются через Plugin Store на gitbook.com в онлайн редакторе. Функционал привнесенный плагином не будет 
+ отображаться в окне preview Visual Studio Code.  
+
+ * [Плагин GitBook Ace Plugin (подсветка синтаксиса кода)](syntax_highlighting.md)
+ 
+ * [Плагин "Copy Code to Clipboard on GitBook" на gitbook.com](https://plugins.gitbook.com/plugin/copy-code-button)  
+   [Плагин "Copy Code to Clipboard on GitBook" на github.com](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
  
  Кнопка "Copy" для блочного выделения кода \``` example code block \```
  
  ![Пример кнопки COPY](pic/gitbook-plugin-copy-code-button.gif)
  
- [i] notice exp
+ * [Плагин "MaXiang Theme" на gitbook.com](https://plugins.gitbook.com/plugin/maxiang)  
+   [Плагин "MaXiang Theme" на npmjs.com](https://www.npmjs.com/package/gitbook-plugin-maxiang)
+   
+   Изменяет цвета заголовков.
+ 
+* Документация к Markdown
+
+ * [Блог разработчика John Gruber на daringfireball.net (en)](http://daringfireball.net/projects/markdown/)
+ * [Markdown на aboutslack.info (ru)](http://aboutslack.info/pages/development/markdown-cheatsheet.html)
+ * [Markdown на wiki](https://ru.wikipedia.org/wiki/Markdown)
+ * [Шпаргалка по Markdown](markdown_cheatsheet.md)
