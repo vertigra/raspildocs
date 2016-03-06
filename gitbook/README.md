@@ -14,10 +14,3 @@
  Кнопка "Copy" для блочного выделения кода \``` example code block \```
  
  ![Пример кнопки COPY](pic/gitbook-plugin-copy-code-button.gif) 
-          
-
-
-
-
-                   
-!include "gitbook/syntax_highlighting.md"
