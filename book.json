@@ -6,7 +6,8 @@
         "-code_tomorrow_scheme",
         "-search-pro",
         "-section",
-        "-theme-official"
+        "-theme-official",
+        "light-it"
     ],
     "pluginsConfig": {}
 }
