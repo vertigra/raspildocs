@@ -2,6 +2,6 @@
     "plugins": [
         "copy-code-button",
         "ace",
-        "hide-published-with",
+        "hide-published-with"
     ]
 }
