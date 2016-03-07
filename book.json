@@ -22,9 +22,9 @@
             "hostname": "http://raspil.nesterof.com/"
         },
         "fontsettings": {
-            "theme": "sepia",
-            "family": "sans",
-            "size": 3
+            "theme": "night",
+            "family": "serif",
+            "size": "3"
         }
     }
 }
