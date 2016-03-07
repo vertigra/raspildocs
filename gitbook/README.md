@@ -26,7 +26,7 @@
 * [Плагин "MaXiang Theme" на gitbook.com](https://plugins.gitbook.com/plugin/maxiang)  
    [Плагин "MaXiang Theme" на npmjs.com](https://www.npmjs.com/package/gitbook-plugin-maxiang)
    
-   Изменяет цвета заголовков.
+   Изменяет цвета заголовков. 
    
    
 ### Оформление документации
