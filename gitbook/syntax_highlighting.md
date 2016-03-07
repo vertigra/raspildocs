@@ -1,8 +1,6 @@
 # GitBook. Приемы работы.
 
-
 ---
-
 
 ### Подсветка кода
 Для подсветки кода используется плагин [GitBook Ace Plugin.](https://plugins.gitbook.com/plugin/ace) 
@@ -38,9 +36,8 @@ theme: the theme for the editor, the default is 'chrome'.
 
 {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
 
-// подсветка кода C#
-// параметры редактора
-// ```{%ace edit=false, lang='csharp', check=true, theme='coffee'%}```
+// подсветка кода C#   
+// параметры редактора \{ %ace edit=false, lang='csharp', check=true, theme='coffee'% \}
 
   public partial class Form1 : Form
   {
