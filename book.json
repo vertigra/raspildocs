@@ -12,7 +12,7 @@
         "-maxiang",
         "-sitemap",
         "-gtoc",
-        "customheader"
+        "-customheader"
     ],
     "pluginsConfig": {
         "-sitemap": {
