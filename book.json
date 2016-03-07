@@ -10,7 +10,8 @@
         "-light-it",
         "-codeblock-disable-glossary",
         "-maxiang",
-        "-sitemap"
+        "-sitemap",
+        "gtoc"
     ],
     "pluginsConfig": {
         "-sitemap": {
