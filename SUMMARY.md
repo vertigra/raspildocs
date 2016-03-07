@@ -2,7 +2,7 @@
 
 * [Вводная часть.](README.md)
 * [Raspil. Разработка.](raspil/raspil_dev.md)
- * Raspil
+ * [Устaновка DDEX Provider for Visual Studio](raspil/ddex_provider_install/ddex_provider_install.md)
 * [Raspil. Использование.](raspil/raspil_used.md)
 * [Cупер Окна. Разработка.](sw/sw_dev.md)
 * [Супер Окна. Использование.](sw/sw_used.md)
