@@ -1,21 +1,7 @@
 {
     "plugins": [
-        "-todo",
         "copy-code-button",
         "ace",
-        "-code_tomorrow_scheme",
-        "-search-pro",
-        "-section",
-        "-theme-official",
-        "-light-it",
-        "-codeblock-disable-glossary",
-        "-maxiang",
-        "-sitemap",
-        "-gtoc",
-        "-customheader",
         "hide-published-with",
-        "-style-rewrite",
-        "-fontsettings",
-        "-structured-toc"
     ]
 }
