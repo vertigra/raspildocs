@@ -17,6 +17,5 @@
         "-style-rewrite",
         "-fontsettings",
         "-structured-toc"
-    ],
-    "pluginsConfig": {}
+    ]
 }
