@@ -34,6 +34,7 @@ theme: the theme for the editor, the default is 'chrome'.
 
 Пример работы.
 
+
 {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
 
 // подсветка кода C#   
