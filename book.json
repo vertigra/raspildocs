@@ -11,7 +11,8 @@
         "-codeblock-disable-glossary",
         "-maxiang",
         "-sitemap",
-        "gtoc"
+        "gtoc",
+        "customheader"
     ],
     "pluginsConfig": {
         "-sitemap": {
