@@ -13,7 +13,8 @@
         "-sitemap",
         "-gtoc",
         "-customheader",
-        "hide-published-with"
+        "hide-published-with",
+        "style-rewrite"
     ],
     "pluginsConfig": {
         "-sitemap": {
