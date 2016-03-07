@@ -115,6 +115,6 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 
  ![Проверка подключения к Firebird](pic/test_connect_to_firebird_to_vs_2015.jpg)
  
-### Материалы
+### Ссылки
  
 Написано по мотивам [этой](https://m.habrahabr.ru/post/278405/) статьи.
