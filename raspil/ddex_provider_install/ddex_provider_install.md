@@ -1,13 +1,15 @@
-### Устaновка DDEX Provider for Visual Studio
+## Устaновка DDEX Provider for Visual Studio
 ---
 
 ### Используемое окружение
+---
 
 * Операционная система Windows(x64)   
 * Visual Studio 2015  
 * .NET Framework 4.0.
 
 ### Подготовка
+---
  
 Для установки DDEX Provider необходимо скачать следующие файлы отсюда
 
@@ -19,6 +21,7 @@
 или с официального сайта [firebirdsql.org](http://www.firebirdsql.org/en/additional-downloads/)
 
 ### Установка
+---
 
 1. Устанавливаем FirebirdSql.Data.FirebirdClient-4.10.0.0.msi
 2. Распаковываем EntityFramework.Firebird-4.10.0.0-NET45.7z в папку с установленным клиентом Firebird.   
@@ -74,7 +77,7 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 
 9. Сохраняем этот файл, запускаем его. На запрос добавить информацию в реестр нажимаем ДА.
 
-10. Теперь нужно отредактировать файл machine.config.  
+10. Теперь нужно отредактировать файл machine.config.    
  **Для Windows10 (x64) он находится по пути C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config**   
  Открываем этот файл блокнотом. Находим секцию   
  
@@ -114,3 +117,8 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 Находим обозреватель серверов и пытаемся подключиться к одной из существующих баз данных Firebird.
 
  ![Проверка подключения к Firebird](pic/test_connect_to_firebird_to_vs_2015.jpg)
+ 
+### Материалы
+---
+ 
+Написано по мотивам [этой](https://m.habrahabr.ru/post/278405/) статьи.
