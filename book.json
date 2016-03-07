@@ -9,7 +9,7 @@
         "-theme-official",
         "-light-it",
         "-codeblock-disable-glossary",
-        "maxiang",
+        "-maxiang",
         "-sitemap"
     ],
     "pluginsConfig": {
