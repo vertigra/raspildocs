@@ -15,7 +15,7 @@
         "-customheader",
         "hide-published-with",
         "-style-rewrite",
-        "fontsettings"
+        "-fontsettings"
     ],
     "pluginsConfig": {
         "-sitemap": {
