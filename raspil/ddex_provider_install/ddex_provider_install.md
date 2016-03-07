@@ -75,18 +75,18 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 9. Сохраняем этот файл, запускаем его. На запрос добавить информацию в реестр нажимаем ДА.
 
 10. Теперь нужно отредактировать файл machine.config.  
-**Для Windows10 (x64) он находится по пути: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config**   
-Открываем этот файл блокнотом. Находим секцию   
+ **Для Windows10 (x64) он находится по пути C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config**   
+ Открываем этот файл блокнотом. Находим секцию   
+ 
+ ```
+	<system.data>
+		<DbProviderFactories>
+		  
+		</DbProviderFactories>
+	</system.data>
+ ```
 
- ``` 
- <system.data>
-       <DbProviderFactories>
-       
-       </DbProviderFactories>
- </system.data>
- ```   
-
-И приводим к следующему виду:   
+ И приводим к следующему виду:   
 
  ```
 	<system.data>
@@ -96,9 +96,10 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 	</system.data>
  ```
  
- То же самое проделаем для machine.config. который находится в c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\
+ То же самое проделаем для machine.config. дирректории Framework64
+ **Для Windows10 (x64) он находится по пути c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\**
  
- У меня это секция имела следущий вид (путь добавился автоматически).
+ У меня это секция имела следущий вид в обоих файлах (путь добавился автоматически).
  
  ```
  	<system.data>
@@ -109,5 +110,7 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 		</DbProviderFactories>
 	</system.data>
  ```
+11. Для проверки, что всё успешно установилось, запускаем Visual Studio 2015. 
+Находим обозреватель серверов и пытаемся подключиться к одной из существующих баз данных Firebird.
 
-
+ ![Проверка подключения к Firebird](pic/test_connect_to_firebird_to_vs_2015.jpg)
