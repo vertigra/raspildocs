@@ -16,15 +16,5 @@
         "hide-published-with",
         "-style-rewrite",
         "-fontsettings"
-    ],
-    "pluginsConfig": {
-        "-sitemap": {
-            "hostname": "http://raspil.nesterof.com/"
-        },
-        "fontsettings": {
-            "theme": 'sepia',
-            "family": 'serif',
-            "size": 3
-        }
-    }
+    ]
 }
