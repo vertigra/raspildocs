@@ -12,7 +12,8 @@
         "-maxiang",
         "-sitemap",
         "-gtoc",
-        "-customheader"
+        "-customheader",
+        "hide-published-with"
     ],
     "pluginsConfig": {
         "-sitemap": {
