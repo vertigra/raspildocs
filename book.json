@@ -15,6 +15,8 @@
         "-customheader",
         "hide-published-with",
         "-style-rewrite",
-        "-fontsettings"
-    ]
+        "-fontsettings",
+        "structured-toc"
+    ],
+    "pluginsConfig": {}
 }
