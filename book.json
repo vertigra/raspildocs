@@ -16,7 +16,7 @@
         "hide-published-with",
         "-style-rewrite",
         "-fontsettings",
-        "structured-toc"
+        "-structured-toc"
     ],
     "pluginsConfig": {}
 }
