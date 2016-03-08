@@ -1,11 +1,11 @@
 # Summary
 
 * [Вводная часть.](README.md)
-* [Raspil. Разработка.](raspil/raspil_dev.md)
+* [Raspil. Для разработчиков.](raspil/raspil_dev.md)
  * [Устaновка DDEX Provider for Visual Studio](raspil/ddex_provider_install/ddex_provider_install.md)
-* [Raspil. Использование.](raspil/raspil_used.md)
-* [Cупер Окна. Разработка.](sw/sw_dev.md)
-* [Супер Окна. Использование.](sw/sw_used.md)
+* [Raspil. Для пользователей..](raspil/raspil_used.md)
+* [Cупер Окна. Для разработчиков.](sw/sw_dev.md)
+* [Супер Окна. Для пользователей.](sw/sw_used.md)
 * [GitBook. Приемы работы.](gitbook/README.md)
  * [Подсветка кода](gitbook/syntax_highlighting.md)
  * [Шпаргалка по Markdown](gitbook/markdown_cheatsheet.md)
