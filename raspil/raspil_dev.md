@@ -7,7 +7,11 @@
 
 ### Настройка компонентов
 
-* [Устaновка DDEX Provider for Visual Studio](ddex_provider_install/ddex_provider_install.md)
+* [Устaновка DDEX Provider for Visual Studio 2015](ddex_provider_install/ddex_provider_install.md)
+
+### Переход с Visual Studio 2010 на Visual Studio 2015
+
+* [Запуск Nunit тестов](test_adapter/README.md)
  
 
 Структура ветки trunk SVN репозитария разработки проекта Raspil.
@@ -40,5 +44,7 @@ trunk
  |- WinCE
  ```
  ---
+ 
+ 
  
  

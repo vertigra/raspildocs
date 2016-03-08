@@ -3,6 +3,7 @@
 * [Вводная часть.](README.md)
 * [Raspil. Для разработчиков.](raspil/raspil_dev.md)
  * [Устaновка DDEX Provider for Visual Studio](raspil/ddex_provider_install/ddex_provider_install.md)
+ * [Запуск Nunit тестов](raspil/test_adapter/README.md)
 * [Raspil. Для пользователей..](raspil/raspil_used.md)
 * [Cупер Окна. Для разработчиков.](sw/sw_dev.md)
 * [Супер Окна. Для пользователей.](sw/sw_used.md)
