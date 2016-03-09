@@ -14,3 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# Visual Studio Settings
+
+/.vscode
