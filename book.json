@@ -5,5 +5,10 @@
         "hide-published-with",
         "sitemap"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+    
+    "sitemap": {
+            "hostname": "http://raspil.nesterof.com/"
+            }
+    }
 }
