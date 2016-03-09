@@ -1,7 +1,7 @@
 # Устaновка DDEX Provider for Visual Studio
 ---
 
-### Используемое окружение
+### Рабочее окружение
 
 * Операционная система Windows(x64)   
 * Visual Studio 2015  

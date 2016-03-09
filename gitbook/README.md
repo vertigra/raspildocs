@@ -5,7 +5,7 @@
 ### Среда разработки документации
 
 * [Visual Studio Code](https://code.visualstudio.com/Download)
-* GitHub <!-- добавить ссылку --> 
+* [Настройка GitHub](git_hub_setting.md) 
 
 ### Плагины Gitbook
  
@@ -17,7 +17,7 @@
    Подсветка синтаксиса кода
  
 * [Плагин "Copy Code to Clipboard on GitBook" на gitbook.com](https://plugins.gitbook.com/plugin/copy-code-button)  
-   [Плагин "Copy Code to Clipboard on GitBook" на github.com](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
+  [Плагин "Copy Code to Clipboard on GitBook" на github.com](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
  
  Кнопка "Copy" для блочного выделения кода \``` example code block \```
  
@@ -28,7 +28,6 @@
   [Плагин "MaXiang Theme" на npmjs.com](https://www.npmjs.com/package/gitbook-plugin-maxiang)
    
    Изменяет цвета заголовков. 
-   
    
 ### Оформление документации
 
