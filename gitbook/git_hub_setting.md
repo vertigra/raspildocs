@@ -25,13 +25,16 @@
 2. Если ключей нет то следует их создать 
  
  > $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
- > $ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
-
+  ```    
+  Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
+  ```
+ 
  Согласиться с местоположением файлов по умолчанию
  
- > $ Enter passphrase (empty for no passphrase): [Type a passphrase]
- > $ Enter same passphrase again: [Type passphrase again]
- 
+ ```
+ Enter passphrase (empty for no passphrase): [Type a passphrase]
+ Enter same passphrase again: [Type passphrase again]
+ ```
  Вводим пароль защищающий приватный ключ (два раза).
  
  *Внимание! Если планируется использование Visual Stidio Code с паролем passphrase то требуется 
