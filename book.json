@@ -3,10 +3,10 @@
         "copy-code-button",
         "ace",
         "hide-published-with",
-        "sitemap"
+        "-sitemap"
     ],
     "pluginsConfig": {
-        "sitemap": {
+        "-sitemap": {
             "hostname": "http://raspil.nesterof.com/"
         }
     }
