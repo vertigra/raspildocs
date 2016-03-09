@@ -10,9 +10,9 @@
 ### Настройка git c авторизацией по SSH без ключа passphrase 
 
 1. Проверить наличие SSH ключей.
- ```
- $ ls -al ~/.ssh
- ``` 
+
+ > $ ls -al ~/.ssh
+  
  Рublic ключи по умолчанию имеют одно из указанных ниже имен
 
  * id_dsa.pub   
@@ -20,7 +20,7 @@
  * id_ed25519.pub   
  * id_rsa.pub
 
-2. Если их нет то следует их создать 
+2. Если нет то следует их создать 
  
  > $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
  > $ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
@@ -47,7 +47,7 @@
 
  > $ ssh-add ~/.ssh/id_rsa
 
-5. Далее в настройках *профиля* (Setting) на GitHub.com в секции SSH keys следует добавить 
+5. В настройках *профиля* (Setting) на GitHub.com в секции SSH keys следует добавить 
 public ключ.
 
  * Нажимаем New SSH key
@@ -56,12 +56,13 @@ public ключ.
    > $ clip < ~/.ssh/id_rsa.pub
  * Жмем Add SSH key
 
-6. После чего можно добавить GitHub.com в ~/.ssh/known_hosts
+6. После чего нужно добавить GitHub.com в ~/.ssh/known_hosts
 
  > $ssh -T git@github.com
 
-7. Проверяем протокол авторизации находяся в корне репозитария 
+7. Проверяем протокол авторизации находясь в корне репозитария 
 
+ > $ cd ~/path_to_repository
  > $ git remote -v
 
  Вывод команды при авторизации по HTTPS
