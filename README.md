@@ -21,4 +21,4 @@
 [Соглашение по форматированию кода Markdown в документах](gitbook/format_code_in_docs.md) и 
 [Соглашение по структуре каталогов документации в репозитарии](gitbook/catalog_structure.md).
 
-<!-- Добавить ссылку на историю версий -->
+История обновлений репозитария находится [здесь](https://github.com/vertigra/raspildocs/commits/master)
