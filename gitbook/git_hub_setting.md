@@ -9,6 +9,8 @@
 
 ### Настройка git c авторизацией по SSH без ключа passphrase 
 
+С помощью команды "git clone" скопировать репозитарий в локальную дирректорию.
+
 1. Проверить наличие SSH ключей.
 
  > $ ls -al ~/.ssh
@@ -20,7 +22,7 @@
  * id_ed25519.pub   
  * id_rsa.pub
 
-2. Если нет то следует их создать 
+2. Если ключей нет то следует их создать 
  
  > $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
  > $ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
@@ -33,7 +35,7 @@
  Вводим пароль защищающий приватный ключ (два раза).
  
  *Внимание! Если планируется использование Visual Stidio Code с паролем passphrase то требуется 
- дополнительная настройка (описано ниже) *
+ дополнительная настройка (описано ниже)*
  
 3. После чего следует запустить ssh-agent
 
@@ -47,7 +49,7 @@
 
  > $ ssh-add ~/.ssh/id_rsa
 
-5. В настройках *профиля* (Setting) на GitHub.com в секции SSH keys следует добавить 
+5. В настройках **профиля** (Setting) на GitHub.com в секции SSH keys следует добавить 
 public ключ.
 
  * Нажимаем New SSH key
@@ -66,7 +68,7 @@ public ключ.
  > $ git remote -v
 
  Вывод команды при авторизации по HTTPS
- > $ https://github.com/USERNAME/OTHERREPOSITORY.git
+ > $ "https://github.com/USERNAME/OTHERREPOSITORY.git"
 
  Вывод команды при авторизации по SSH
  > $ git@github.com:USERNAME/OTHERREPOSITORY.git
@@ -86,7 +88,7 @@ primary GitHub email address в настройках профиля на GitHub.
  > $ git config --global user.email "your_email@example.com"
 
  Имя пользователя задается командой (опционально)
- >$ git config --global user.name "your_user_name_on_git_hub"
+ > $ git config --global user.name "your_user_name_on_git_hub"
 
 10. Тест (команда "git commit" без указанного пароля passphrase)
 
@@ -103,7 +105,7 @@ primary GitHub email address в настройках профиля на GitHub.
 ### Дополнительная настройка GitBash и Visual Studio Code с паролем passphrase
 
 Для того что бы не вводить пароль passphrase каждый раз при команде "git push" необходимо произвести
-деиствия описаные ниже
+действия описаные ниже
 
 * Настройка GitBush
 
@@ -129,7 +131,7 @@ primary GitHub email address в настройках профиля на GitHub.
  git работать не будет (ошибка Permission denied (publickey)). Для того что бы он работал необходимо запустить 
  Visual Studio Code следущим способом:
   
-  1. Открыть Git CMD и набрать следующие команды
+  * Открыть Git CMD и набрать следующие команды
   >start-ssh-agent
    ```
    Found ssh-agent at 2332
