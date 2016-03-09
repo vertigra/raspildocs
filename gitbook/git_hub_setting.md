@@ -68,12 +68,12 @@ public ключ.
  > $ git remote -v
 
  Вывод команды при авторизации по HTTPS
- > $ "https://github.com/USERNAME/OTHERREPOSITORY.git"
+ > $ `https://github.com/USERNAME/OTHERREPOSITORY.git`
 
  Вывод команды при авторизации по SSH
  > $ git@github.com:USERNAME/OTHERREPOSITORY.git
 
- Для корректной работы нам необходимо переключиться в режим авторизации по SSH (если вывод команды соответсвут HTTPS)
+ Для корректной работы нам необходимо переключиться в режим авторизации по SSH (если вывод команды соответсвует HTTPS)
  > $ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
 
 8. Далее необходимо задать поведение команды "git push" по умолчанию.
@@ -105,7 +105,7 @@ primary GitHub email address в настройках профиля на GitHub.
 ### Дополнительная настройка GitBash и Visual Studio Code с паролем passphrase
 
 Для того что бы не вводить пароль passphrase каждый раз при команде "git push" необходимо произвести
-действия описаные ниже
+действия описанные ниже.
 
 * Настройка GitBush
 
