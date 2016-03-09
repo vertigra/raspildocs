@@ -67,7 +67,7 @@ public ключ.
 
 7. Проверяем протокол авторизации находясь в корне репозитария 
 
- > $ cd ~/path_to_repository
+ > $ cd ~/path_to_repository     
  > $ git remote -v
 
  Вывод команды при авторизации по HTTPS
