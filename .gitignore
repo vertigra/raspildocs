@@ -16,5 +16,4 @@ _book
 *.pdf
 
 # Visual Studio Settings
-
-/.vscode/*
+.vscode/*
