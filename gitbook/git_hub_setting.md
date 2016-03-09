@@ -135,12 +135,12 @@ primary GitHub email address в настройках профиля на GitHub.
  Visual Studio Code следущим способом:
   
   * Открыть Git CMD и набрать следующие команды
-  >start-ssh-agent
+  > C:\Users\your_user_name> start-ssh-agent
    ```
    Found ssh-agent at 2332
    Found ssh-agent socket at /tmp/ssh-z4dlWUinmVkV/agent.4016
    ```
-   >code (вызывает Visual Studio Code)
+  > C:\Users\your_user_name> code (вызывает Visual Studio Code)
 
 
 ### Ссылки
