@@ -85,7 +85,7 @@
 
  Открываем этот файл блокнотом. Находим секцию
 
- ```config
+ ```xml
      <system.data>
          <DbProviderFactories>
 
@@ -95,7 +95,7 @@
 
  И приводим к следующему виду:
 
- ```config
+ ```xml
      <system.data>
         <DbProviderFactories>
             <add name="FirebirdClient Data Provider" invariant="FirebirdSql.Data.FirebirdClient"
@@ -112,7 +112,7 @@
 
  У меня это секция имела следущий вид в обоих файлах (путь добавился автоматически).
 
- ```config
+ ```xml
      <system.data>
         <DbProviderFactories>
             <add name="Microsoft SQL Server Compact Data Provider"
