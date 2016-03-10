@@ -14,5 +14,5 @@
    * [Соглашение по структуре каталогов документации в репозитарии](gitbook/catalog_structure.md)
    * [Соглашение по форматированию кода Markdown в документах](gitbook/format_code_in_docs.md)
 * [Test](test.md)
-   * Tets Article
+   * [Tets Article](tets_article.md)
 
