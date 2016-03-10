@@ -1,7 +1,7 @@
-# Raspil. Разработка.
+# Raspil. Разработка
 ---
 
-### Инструменты разработки
+## Инструменты разработки
 
 Среда разработки Visual Studio.
 
@@ -12,12 +12,13 @@
 ### Переход с Visual Studio 2010 на Visual Studio 2015
 
 * [Запуск Nunit тестов](test_adapter/README.md)
- 
 
 Структура ветки trunk SVN репозитария разработки проекта Raspil.
-```
+
+```text
+
 trunk
- |- Archive 
+ |- Archive
  |- Raspil
    |- _archiv_code
    |- BarcodeLib
@@ -43,8 +44,4 @@ trunk
  |- Wiki
  |- WinCE
  ```
- ---
- 
- 
- 
- 
+---
