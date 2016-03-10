@@ -39,16 +39,13 @@
 
 ## Оформление блоков кода
 
-```md
+    ```java
 
-/```java
+    if(int i = 0; i < 10; i++ ){
+        do somphing
+    }
 
-If(int i = 0; i < 10; i++ ){
-    do somphing
-}
+    ```
 
-/```
-
-```
 
 
