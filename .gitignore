@@ -17,3 +17,6 @@ _book
 
 # Visual Studio Settings
 .vscode/*
+
+#Git Ignore file
+.gitignore

@@ -34,10 +34,9 @@ raspildocs
  |  |-README.md (file)
  |-sw_for_users (folder)
  |  |-README.md (file)
- |-.gitignore 
- |-book.json
- |-pax_global_header
- |-README.md
- |-SUMMRY.md
+ |-.gitignore  
+ |-book.json (build файл gitbook)
+ |-README.md 
+ |-SUMMRY.md (файл структуры меню)
 ```
 
