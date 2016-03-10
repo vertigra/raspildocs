@@ -59,8 +59,7 @@ FirebirdSql.Data.FirebirdClient установлен в GAC
 
  Сборка успешно добавлена в кэш
  ```
-6. Распаковываем DDEXProvider-3.0.2.0.7z в удобную директорию. 
-Я распаковал её в c:\Program Files (x86)\
+6. Распаковываем DDEXProvider-3.0.2.0.7z в удобную директорию. Я распаковал её в c:\Program Files (x86)\FirebirdClient
 
 7. Туда же распаковываем DDEXProvider-3.0.2.0-src.7z содержимое поддиректории архива /reg_files/VS2015
 
