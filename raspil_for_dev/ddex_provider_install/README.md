@@ -69,7 +69,7 @@
 
 1. Туда же распаковываем DDEXProvider-3.0.2.0-src.7z содержимое поддиректории архива /reg_files/VS2015
 
-1. Открываем файл FirebirdDDEXProvider64.reg с помощью блокнота. Находим строчку, которая содержит %path% и меняем его на полный путь к файлу FirebirdSql.VisualStudio.DataTools.dll 
+1. Открываем файл FirebirdDDEXProvider64.reg с помощью блокнота. Находим строчку, которая содержит %path% и меняем его на полный путь к файлу FirebirdSql.VisualStudio.DataTools.dll
 
  (ветка \[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0_Config\DataProviders\{92421248-F044-483A-8237-74C7FBC62971}]\)
 
@@ -99,7 +99,7 @@
  <system.data>
     <DbProviderFactories>
         <add name="FirebirdClient Data Provider" invariant="FirebirdSql.Data.FirebirdClient"
-            description=".NET Framework Data Provider for Firebird" 
+            description=".NET Framework Data Provider for Firebird"
             type="FirebirdSql.Data.FirebirdClient.FirebirdClientFactory, FirebirdSql.Data.FirebirdClient,
             Version=4.10.0.0, Culture=neutral    PublicKeyToken=3750abcc3150b00c"/>
     </DbProviderFactories>
