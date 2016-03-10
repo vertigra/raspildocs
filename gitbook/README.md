@@ -41,5 +41,4 @@
  * [Markdown на wiki](https://ru.wikipedia.org/wiki/Markdown)
  * [Шпаргалка по Markdown](markdown_cheatsheet.md)
  
-<!--todo добавиь соглашение по форматированию кода в документации и репозитарии  -->
 <!--todo добавить нюансы работы с gitbook (.png не отбражается, .jpg отображается), не использовать ## -->
