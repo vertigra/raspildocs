@@ -4,10 +4,10 @@
 
 ## Иерархия каталогов верхнего уровня
 
-Каталоги верхнего уровня содержат дирректории которым соответствует пять основных 
+Каталоги верхнего уровня содержат дирректории которым соответствует пять основных
 веток репозитария документов.
 
-``` explorer
+```text
 raspildocs
  |
  |-gitbook (ветка "GitBook. Приемы работы")
@@ -21,25 +21,54 @@ raspildocs
 
 ## Иерархия файлов в каталогах верхнего уровня
 
-``` explorer
+```text
 raspildocs
  |
- |-gitbook (folder)
- |  |-README.md (file)
- |-raspil_for_dev (folder)
- |  |-README.md (file)
- |-raspil_for_users (folder)
- |  |-README.md (file)
- |-sw_for_dev (folder)
- |  |-README.md (file)
- |-sw_for_users (folder)
- |  |-README.md (file)  
+ |-/gitbook
+ |  |-/drafts
+ |  |-README.md
+ |-/raspil_for_dev
+ |  |-/drafts
+ |  |-README.md
+ |-/raspil_for_users
+ |  |-/drafts
+ |  |-README.md
+ |-/sw_for_dev
+ |  |-/drafts
+ |  |-README.md
+ |-sw_for_users
+ |  |-/drafts
+ |  |-README.md
  |-book.json (build файл gitbook)
  |-README.md (file)
  |-SUMMRY.md (файл структуры меню)
 ```
 
 Файл README.md преобразуется в файл index.html после сборки книги.
+Папка drafts используется для черновиков. Формат черновиков .txt или .md
 
-### Создание поддиректорий в каталогах верхнего уровня
+## Создание поддиректорий в каталогах верхнего уровня
 
+Поддиректории в каталогах верхнего уровня следует создавть в следующих случаях:
+
+1. Есть две или более статьи на схожую тему, например при такой структуре меню
+ 
+ * Распил для разработчиков
+    * Настройка рабочего окружения
+    * Настройка Visual Studio 2015
+       * Настройка клиента Mercurial 
+
+ следует использовать такую структуру каталогов
+
+ ```text
+ raspildocs
+ | 
+ |-/raspil_for_dev
+ |  |-/drafts
+ |  |-/working_environment
+ |  |  |-setting_vs_2015.md
+ |  |  |-setting_mercurial.md
+ |  |-README.md
+ ```
+<!--todo подумать над структурой для "Настройки рабочего окружения
+нужно будет делать файл Readme и прочее ??? "-->
