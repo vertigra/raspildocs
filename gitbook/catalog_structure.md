@@ -10,7 +10,6 @@
 ```
 raspildocs
  |
- |-.vscode (служебные файлы Visual Studio Code)
  |-gitbook (ветка "GitBook. Приемы работы")
  |-raspil_for_dev (ветка "Raspil. Для разработчиков.")
  |-raspil_for_users (ветка "Raspil. Для пользователей.")
@@ -25,7 +24,6 @@ raspildocs
 ```
 raspildocs
  |
- |-.vscode (folder)
  |-gitbook (folder)
  |  |-README.md (file)
  |-raspil_for_dev (folder)
