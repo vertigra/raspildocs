@@ -33,10 +33,9 @@ raspildocs
  |-sw_for_dev (folder)
  |  |-README.md (file)
  |-sw_for_users (folder)
- |  |-README.md (file)
- |-.gitignore  
+ |  |-README.md (file)  
  |-book.json (build файл gitbook)
- |-README.md 
+ |-README.md (file)
  |-SUMMRY.md (файл структуры меню)
 ```
 
