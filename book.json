@@ -2,12 +2,6 @@
     "plugins": [
         "copy-code-button",
         "ace",
-        "hide-published-with",
-        "-sitemap"
-    ],
-    "pluginsConfig": {
-        "-sitemap": {
-            "hostname": "http://raspil.nesterof.com/"
-        }
-    }
+        "hide-published-with"
+    ]
 }
