@@ -1,12 +1,12 @@
 # Summary
 
 * [Вводная часть.](README.md)
-* [Raspil. Для разработчиков.](raspil/raspil_dev.md)
-   * [Устaновка DDEX Provider for Visual Studio](raspil/ddex_provider_install/ddex_provider_install.md)
-   * [Запуск Nunit тестов](raspil/test_adapter/README.md)
-* [Raspil. Для пользователей.](raspil/raspil_used.md)
-* [Cупер Окна. Для разработчиков.](sw/sw_dev.md)
-* [Супер Окна. Для пользователей.](sw/sw_used.md)
+* [Raspil. Для разработчиков.](raspil_for_dev/raspil_dev.md)
+   * [Устaновка DDEX Provider for Visual Studio](raspil_for_dev/ddex_provider_install/ddex_provider_install.md)
+   * [Запуск Nunit тестов](raspil_for_dev/test_adapter/README.md)
+* [Raspil. Для пользователей.](raspil_for_users/raspil_used.md)
+* [Cупер Окна. Для разработчиков.](sw_for_dev/sw_dev.md)
+* [Супер Окна. Для пользователей.](sw_for_users/sw_used.md)
 * [GitBook. Приемы работы.](gitbook/README.md)
    * [Подсветка кода](gitbook/syntax_highlighting.md)
    * [Настройка GitHub](gitbook/git_hub_setting.md)
