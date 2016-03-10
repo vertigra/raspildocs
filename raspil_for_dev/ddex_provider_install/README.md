@@ -85,7 +85,7 @@
 
  Открываем этот файл блокнотом. Находим секцию
 
- ```text
+ ```config
  <system.data>
      <DbProviderFactories>
 
@@ -95,31 +95,46 @@
 
  И приводим к следующему виду:
 
- ```text
+ ```config
  <system.data>
     <DbProviderFactories>
-        <add name="FirebirdClient Data Provider" invariant="FirebirdSql.Data.FirebirdClient" description=".NET Framework Data Provider for Firebird" type="FirebirdSql.Data.FirebirdClient.FirebirdClientFactory, FirebirdSql.Data.FirebirdClient, Version=4.10.0.0, Culture=neutral    PublicKeyToken=3750abcc3150b00c"/>
+        <add name="FirebirdClient Data Provider" invariant="FirebirdSql.Data.FirebirdClient"
+         description=".NET Framework Data Provider for Firebird"
+         type="FirebirdSql.Data.FirebirdClient.FirebirdClientFactory, FirebirdSql.Data.FirebirdClient,
+         Version=4.10.0.0, Culture=neutral    PublicKeyToken=3750abcc3150b00c"/>
     </DbProviderFactories>
  </system.data>
  ```
 
  То же самое проделаем для machine.config. дирректории Framework64
+
  **Для Windows10 (x64) он находится по пути c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\**
 
  У меня это секция имела следущий вид в обоих файлах (путь добавился автоматически).
 
- ```text
+ ```config
  <system.data>
     <DbProviderFactories>
-        <add name="Microsoft SQL Server Compact Data Provider" invariant="System.Data.SqlServerCe.3.5" description=".NET Framework Data Provider for Microsoft SQL Server Compact" type="System.Data.SqlServerCe.SqlCeProviderFactory, System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"/>
-        <add name="Microsoft SQL Server Compact Data Provider 4.0" invariant="System.Data.SqlServerCe.4.0" description=".NET Framework Data Provider for Microsoft SQL Server Compact" type="System.Data.SqlServerCe.SqlCeProviderFactory, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"/>
-        <add name="FirebirdClient Data Provider" invariant="FirebirdSql.Data.FirebirdClient" description=".NET Framework Data Provider for Firebird" type="FirebirdSql.Data.FirebirdClient.FirebirdClientFactory, FirebirdSql.Data.FirebirdClient, Version=4.10.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c"/>
+        <add name="Microsoft SQL Server Compact Data Provider"
+         invariant="System.Data.SqlServerCe.3.5"
+         description=".NET Framework Data Provider for Microsoft SQL Server Compact"
+         type="System.Data.SqlServerCe.SqlCeProviderFactory, System.Data.SqlServerCe, Version=3.5.1.0,
+         Culture=neutral, PublicKeyToken=89845dcd8080cc91"/>
+        <add name="Microsoft SQL Server Compact Data Provider 4.0"
+         invariant="System.Data.SqlServerCe.4.0"
+         description=".NET Framework Data Provider for Microsoft SQL Server Compact"
+         type="System.Data.SqlServerCe.SqlCeProviderFactory, System.Data.SqlServerCe, Version=4.0.0.0,
+         Culture=neutral, PublicKeyToken=89845dcd8080cc91"/>
+        <add name="FirebirdClient Data Provider" invariant="FirebirdSql.Data.FirebirdClient"
+         description=".NET Framework Data Provider for Firebird"
+         type="FirebirdSql.Data.FirebirdClient.FirebirdClientFactory,
+         FirebirdSql.Data.FirebirdClient, Version=4.10.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c"/>
     </DbProviderFactories>
  </system.data>
  ```
-1. Для проверки, что всё успешно установилось, запускаем Visual Studio 2015.
+ 1. Для проверки, что всё успешно установилось, запускаем Visual Studio 2015.
 
-Находим обозреватель серверов и пытаемся подключиться к одной из существующих баз данных Firebird.
+ Находим обозреватель серверов и пытаемся подключиться к одной из существующих баз данных Firebird.
 
  ![Проверка подключения к Firebird](pic/test_connect_to_firebird_to_vs_2015.jpg)
 
