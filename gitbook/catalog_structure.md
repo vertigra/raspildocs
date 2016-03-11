@@ -25,44 +25,55 @@ raspildocs
 raspildocs
  |
  |-/gitbook
- |  |-/drafts
+ |  |-/_drafts
+ |  |-/_file
+ |  |-/_pic
  |  |-README.md
  |-/raspil_for_dev
- |  |-/drafts
+ |  |-/_drafts
+ |  |-/_file
+ |  |-/_pic
  |  |-README.md
  |-/raspil_for_users
- |  |-/drafts
+ |  |-/_drafts
+ |  |-/_file
+ |  |-/_pic
  |  |-README.md
  |-/sw_for_dev
- |  |-/drafts
+ |  |-/_drafts
+ |  |-/_file
+ |  |-/_pic
  |  |-README.md
  |-sw_for_users
- |  |-/drafts
+ |  |-/_drafts
+ |  |-/_file
+ |  |-/_pic
  |  |-README.md
  |-book.json (build файл gitbook)
  |-README.md (file)
  |-SUMMRY.md (файл структуры меню)
 ```
 
+Папка drafts используется для черновиков. Формат черновиков .txt или .md.  
 Файл README.md преобразуется в файл index.html после сборки книги.
-Папка drafts используется для черновиков. Формат черновиков .txt или .md
+
 
 ## Создание поддиректорий в каталогах верхнего уровня
 
 Поддиректории в каталогах верхнего уровня следует создавть в следующих случаях:
 
 1. Есть две или более статьи на схожую тему, например при такой структуре меню
- 
- * Распил для разработчиков
-    * Настройка рабочего окружения
+
+* Распил для разработчиков
+  * Настройка рабочего окружения
     * Настройка Visual Studio 2015
-       * Настройка клиента Mercurial 
+    * Настройка клиента Mercurial
 
  следует использовать такую структуру каталогов
 
  ```text
  raspildocs
- | 
+ |
  |-/raspil_for_dev
  |  |-/drafts
  |  |-/working_environment
@@ -70,5 +81,5 @@ raspildocs
  |  |  |-setting_mercurial.md
  |  |-README.md
  ```
-<!--todo подумать над структурой для "Настройки рабочего окружения
-нужно будет делать файл Readme и прочее ??? "-->
+<!--//TODO подумать над структурой для "Настройки рабочего окружения 
+нужно будет делать файл Readme и прочее ???-->

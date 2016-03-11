@@ -12,7 +12,7 @@
  Плагины устанавливаются через Plugin Store на gitbook.com в онлайн редакторе. Функционал привнесенный плагином не будет 
  отображаться в окне preview Visual Studio Code.
 
-* [Плагин GitBook Ace Plugin](syntax_highlighting.md)
+* [Плагин GitBook Ace Plugin](syntax_high\lighting.md)
 
    Подсветка синтаксиса кода
 

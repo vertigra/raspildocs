@@ -14,7 +14,7 @@
 
 * [Запуск Nunit тестов](test_adapter/README.md)
 
-Структура ветки trunk SVN репозитария разработки проекта Raspil.
+Структура ветки trunk SVN репозитария разработки проекта Raspil.  
 
 ```text
 
