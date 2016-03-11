@@ -1,0 +1,21 @@
+1) Зайти на web сайт репазитария, добавить сертификат в исключения
+2) Экспортировать сертификат (для Mozilla -> Дополнительные -> Сертификаты -> Просмотр сертификатов)
+3) Добавить в Path.rc (C:\Program Files\TortoiseHg\hgrc.d\Paths.rc) Mercurial путь до экспортированого сертификата
+
+* синтаксис файла *
+[web]
+cacerts = C:\Program Files\TortoiseHg\cert\name_cert.crt
+* конец секции *
+
+4) Запустить clone
+5) После ошибки warning: Unexpected Fingerprint or Certificate not verified web.cacertsd будет следовать hostfingerprints подключаемого хоста (например 92:CC:DA:46:71:F8:89:CF:9E:F4:3F:17:3B:2B:C0:3A:8C:76:56:53).
+6. Добавить в mercurial.ini (C:\Users\user_name) секцию
+
+* синтаксис файла *
+[hostfingerprints]
+example.org = 92:CC:DA:46:71:F8:89:CF:9E:F4:3F:17:3B:2B:C0:3A:8C:76:56:53
+* конец секции *
+
+example.org - адрес реппозитария
+
+ 
