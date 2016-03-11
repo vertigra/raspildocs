@@ -1,12 +1,13 @@
-# GitBook. Приемы работы.
+# GitBook. Приемы работы
 
 ---
 
-### Подсветка кода
-Для подсветки кода используется плагин [GitBook Ace Plugin.](https://plugins.gitbook.com/plugin/ace) 
+## Подсветка кода
+
+Для подсветки кода используется плагин [GitBook Ace Plugin.](https://plugins.gitbook.com/plugin/ace)
 Базовый синтаксис который следует использовать для подсветки кода:
 
-```
+```cpp
 {%ace edit=true, lang='c_cpp'%}
 // This is a hello world program for C.
 #include <stdio.h>
@@ -17,27 +18,32 @@ int main(){
 }
 {%endace%}
 ```
+
 Из описания к плагину.
 
 edit: if this is set to true, the code will be editable by the user.
 
-lang: the language for syntax highlight. For the full list of keyword for each language, please check out the [github page](https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict) of ace here, all the related files are starting with prefix mode-. For instance:
-        * mode_c_cpp.js ----> c_cpp
-        * mode_java.js ----> java
-        ...
+lang: the language for syntax highlight. For the full list of keyword for each language,
+please check out the [github page](https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict)
+of ace here, all the related files are starting with prefix mode-. For instance:
+
+* mode_c_cpp.js ----> c_cpp
+* mode_java.js ----> java
+* ...
+
 check: if this is set to false, syntax validation will be disabled.
 
 theme: the theme for the editor, the default is 'chrome'.
-        * monokai
-        * coffee
-        * ...
+
+* monokai
+* coffee
+* ...
 
 Пример работы.
 
-
 {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
 
-// подсветка кода C#   
+// подсветка кода C#
 // параметры редактора \{ %ace edit=false, lang='csharp', check=true, theme='coffee'% \}
 
   public partial class Form1 : Form
@@ -61,7 +67,6 @@ theme: the theme for the editor, the default is 'chrome'.
       Close();
     }
 
-    
     private void button5_Click(object sender, EventArgs e)
     {
       int i = Convert.ToInt32(textBox2.Text);
@@ -80,7 +85,3 @@ theme: the theme for the editor, the default is 'chrome'.
   }
 
 {%endace%}
-
-
-
-
