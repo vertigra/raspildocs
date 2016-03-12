@@ -1,11 +1,15 @@
-# Средства разработки
+# Raspil. Р Р°Р·СЂР°Р±РѕС‚РєР°
 
 ---
 
-## Инструменты разработки
+## РРЅСЃС‚СЂСѓРјРµРЅС‚С‹ СЂР°Р·СЂР°Р±РѕС‚РєРё
 
-Среда разработки Visual Studio 2015.
+РЎСЂРµРґР° СЂР°Р·СЂР°Р±РѕС‚РєРё Visual Studio.
 
-## Настройка компонентов
+## РќР°СЃС‚СЂРѕР№РєР° РєРѕРјРїРѕРЅРµРЅС‚РѕРІ
 
-* [Устaновка DDEX Provider for Visual Studio 2015](components/ddex_provider_install)
+* [РЈСЃС‚aРЅРѕРІРєР° DDEX Provider for Visual Studio 2015](components/ddex_provider_install/README.md)
+
+## РџРµСЂРµС…РѕРґ СЃ Visual Studio 2010 РЅР° Visual Studio 2015
+
+* [Р—Р°РїСѓСЃРє Nunit С‚РµСЃС‚РѕРІ](test_adapter/README.md)
