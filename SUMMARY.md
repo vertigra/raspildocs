@@ -2,7 +2,6 @@
 
 * [Инструменты разработки](development_tools/README.md)
   * [Компоненты](development_tools/components/README.md)
-    * [Nunit тесты](development_tools/components/test_adapter/README.md)
     * [DDEX Provider](development_tools/components/ddex_provider_install/README.md)
     * [Gitbook Ace Plugin](development_tools/components/syntax_highlighting.md)
   * VCS
