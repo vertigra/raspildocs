@@ -4,8 +4,11 @@
   * [Компоненты](development_tools/components/README.md)
     * [Nunit тесты](development_tools/components/test_adapter/README.md)
     * [DDEX Provider](development_tools/components/ddex_provider_install/README.md)
-  * [VCS](development_tools/vcs/README.md)
+    * [Gitbook Ace Plugin](development_tools/components/syntax_highlighting.md)
+  * VCS
     * [GitHib](development_tools/vcs/git_hub_setting.md)
+  * Test
+    * [Запуск Nunit тестов](development_tools/test/test_adapter/README.md)
 * [Стандарты](development_standarts/README.md)
   * [Стандарты документации](development_standarts/document_standart/README.md)
 * [Roadmap](roadmap/README.md)
