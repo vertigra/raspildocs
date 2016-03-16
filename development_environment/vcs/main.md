@@ -9,4 +9,3 @@
 [Настройка Git для работы с репозитарием документов на GitHub](git_hub_setting.md)
 
 ## Mercurial ##
-
