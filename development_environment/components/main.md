@@ -1,10 +1,12 @@
 # Компoненты #
 
+---
+
 Настройка компонентов операционной системы, библиотек, плагинов и среды исполения кода.
 
 ## Компоненты Visual Studio 2015 ##
 
-* [Устaновка DDEX Provider for Visual Studio 2015](ddex_provider_install/README.md)
+* [Устaновка DDEX Provider for Visual Studio 2015](ddex_provider_install/main.md)
 
 ## Плагины GitBook ##
 

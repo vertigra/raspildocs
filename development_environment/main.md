@@ -1,16 +1,10 @@
-# Инструменты разработки #
+# Среда и инструменты разработки #
 
 ---
 
 ## IDE ##
 
-Основной среда разработки для языка С#.
-
-* [Среда разработки Visual Studio 2015](https://www.visualstudio.com/ru-ru/downloads/download-visual-studio-vs.aspx)
-
-Среда для разработки документации с разметокой Markdown.
-
-* [Visual Studio Code](https://code.visualstudio.com/Download)
+[Ветка описания настроек интергрированных средств разработки](components/main), для используемых языков програмирования в проекте.
 
 ## Компоненты ##
 
