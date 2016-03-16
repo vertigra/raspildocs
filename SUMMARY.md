@@ -12,3 +12,4 @@
   * [Стандарты документации](development_conventions/document_standart/README.md)
 * [План развития(Roadmap)](roadmap/main.md)
 * [Описание проектов и библиотек](projects/main.md)
+* [Остальное](others/main.md)
