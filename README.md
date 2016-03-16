@@ -8,8 +8,8 @@
 
 * [Среда и инструменты разработки](development_environment/main.md)
 * [Стандарты проектирования и програмированния](development_convention/main.md)
-* [План развития(Roadmap)](roadmaps/main.md)
-* [Описание проектов и библиотек](project/main.md)
+* [План развития(Roadmap)](roadmap/main.md)
+* [Описание проектов и библиотек](projects/main.md)
 
 Перед внесением изменений или созданием новых документов, крайне желательно ознакомиться с документами
 [Соглашение по форматированию кода Markdown в документах](gitbook/format_code_in_docs.md) и

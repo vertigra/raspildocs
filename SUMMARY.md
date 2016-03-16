@@ -1,6 +1,6 @@
 # Summary
 
-* [Инструменты разработки](development_tools/README.md)
+* [Инструменты разработки](development_tools/main.md)
   * [Компоненты](development_tools/components/README.md)
     * [DDEX Provider](development_tools/components/ddex_provider_install/README.md)
     * [Gitbook Ace Plugin](development_tools/components/syntax_highlighting.md)
