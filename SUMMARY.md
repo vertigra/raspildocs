@@ -1,14 +1,14 @@
 # Summary
 
-* [Инструменты разработки](development_tools/main.md)
-  * [Компоненты](development_tools/components/README.md)
-    * [DDEX Provider](development_tools/components/ddex_provider_install/README.md)
-    * [Gitbook Ace Plugin](development_tools/components/syntax_highlighting.md)
+* [Среда и инструменты разработки](development_environment/main.md)
+  * [Компоненты](development_environment/components/README.md)
+    * [DDEX Provider](development_environment/components/ddex_provider_install/README.md)
+    * [Gitbook Ace Plugin](development_environment/components/syntax_highlighting.md)
   * VCS
-    * [GitHib](development_tools/vcs/git_hub_setting.md)
+    * [GitHib](development_environment/vcs/git_hub_setting.md)
   * Test
-    * [Запуск Nunit тестов](development_tools/test/test_adapter/README.md)
-* [Стандарты](development_standarts/README.md)
-  * [Стандарты документации](development_standarts/document_standart/README.md)
-* [Roadmap](roadmap/README.md)
-* [Проекты](project/README.md)
+    * [Запуск Nunit тестов](development_environment/test/test_adapter/README.md)
+* [Стандарты проектирования и програмированния](development_conventions/main.md)
+  * [Стандарты документации](development_conventions/document_standart/README.md)
+* [План развития(Roadmap)](roadmap/main.md)
+* [Описание проектов и библиотек](projects/main.md)

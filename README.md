@@ -7,7 +7,7 @@
 Документации ведется в двух основных тематических ветках.
 
 * [Среда и инструменты разработки](development_environment/main.md)
-* [Стандарты проектирования и програмированния](development_convention/main.md)
+* [Стандарты проектирования и програмированния](development_conventions/main.md)
 * [План развития(Roadmap)](roadmap/main.md)
 * [Описание проектов и библиотек](projects/main.md)
 
