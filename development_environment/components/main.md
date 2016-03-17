@@ -1,10 +1,12 @@
 # Компoненты #
 
+---
+
 Настройка компонентов операционной системы, библиотек, плагинов и среды исполения кода.
 
 ## Компоненты Visual Studio 2015 ##
 
-* [Устaновка DDEX Provider for Visual Studio 2015](ddex_provider_install/README.md)
+* [Устaновка DDEX Provider for Visual Studio 2015](ddex_provider_install/main.md)
 
 ## Плагины GitBook ##
 
@@ -12,7 +14,7 @@
 
 * [Плагин GitBook Ace Plugin](syntax_highlighting.md) для подсветки синтаксиса кода.
 
-* [Плагин "Copy Code to Clipboard on GitBook" на gitbook.com](https://plugins.gitbook.com/plugin/copy-code-button)  
+* [Плагин "Copy Code to Clipboard on GitBook" на gitbook.com](https://plugins.gitbook.com/plugin/copy-code-button)
   [Плагин "Copy Code to Clipboard on GitBook" на github.com](https://github.com/WebEngage/gitbook-plugin-copy-code-button)
 
  Кнопка "Copy" для блочного выделения кода \``` example code block \```

@@ -1,76 +1,92 @@
-# Настройка GitHib для работы с репозитарием документов
+# Настройка GitHib для работы с репозитарием документов #
 
 <!--todo добавить какие файлы добавить в .gitignore и как удалить их из индекса (git rm --cached .gitignore) -->
---- 
 
-### Рабочее окружение
+---
+
+## Рабочее окружение ##
 
 * Windows 10 (x32)
 * [Git-2.7.2-32-bit.exe](https://git-scm.com/download/win)
 
-### Настройка git c авторизацией по SSH без ключа passphrase 
+### Настройка git c авторизацией по SSH без ключа passphrase
 
 С помощью команды "git clone" скопировать репозитарий в локальную дирректорию.
 
 1. Проверить наличие SSH ключей.
 
- > $ ls -al ~/.ssh
-  
+ ```bash
+  $ ls -al ~/.ssh
+ ```
+
  Рublic ключи по умолчанию имеют одно из указанных ниже имен
 
- * id_dsa.pub   
- * id_ecdsa.pub   
- * id_ed25519.pub   
- * id_rsa.pub
+    * id_dsa.pub
+    * id_ecdsa.pub
+    * id_ed25519.pub
+    * id_rsa.pub
 
-2. Если ключей нет то следует их создать 
- 
- > $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-  ```    
-  Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
-  ```
- 
- Согласиться с местоположением файлов по умолчанию
- 
+1. Если ключей нет то следует их создать
+
+ ```bash
+  $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com
+ Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
  ```
+
+ Согласиться с местоположением файлов по умолчанию
+
+ ```bash
  Enter passphrase (empty for no passphrase): [Type a passphrase]
  Enter same passphrase again: [Type passphrase again]
  ```
+
  Вводим пароль защищающий приватный ключ (два раза).
- 
- *Внимание! Если планируется использование Visual Stidio Code с паролем passphrase то требуется 
- дополнительная настройка (описано ниже)*
- 
-3. После чего следует запустить ssh-agent
+
+ *Внимание! Если планируется использование Visual Stidio Code с паролем passphrase то требуется дополнительная настройка (описано ниже) *
+
+1. После чего следует запустить ssh-agent
 
  Git Bash
- > $ eval "$(ssh-agent -s)"
 
- Git for Windows 
- > $ eval $(ssh-agent -s)
+ ```bash
+  $ eval "$(ssh-agent -s)"
+ ```
 
-4. Далее следует указать наши SSH ключи, SSH агенту
+ Git for Windows
 
- > $ ssh-add ~/.ssh/id_rsa
+ ```bash
+  $ eval $(ssh-agent -s)
+ ```
 
-5. В настройках **профиля** (Setting) на GitHub.com в секции SSH keys следует добавить 
-public ключ.
+1. Далее следует указать наши SSH ключи, SSH агенту
 
- * Нажимаем New SSH key
- * В поле Title указываем имя машины которой принадлежит public key
- * В поле key копируем содержания файла ~/.ssh/id_rsa.pub 
-   > $ clip < ~/.ssh/id_rsa.pub
- * Жмем Add SSH key
+ ```bash
+  $ ssh-add ~/.ssh/id_rsa
+ ```
 
-6. После чего нужно добавить GitHub.com в ~/.ssh/known_hosts
+1. В настройках **профиля** (Setting) на GitHub.com в секции SSH keys следует добавить public ключ.
+
+       * Нажимаем New SSH key
+       * В поле Title указываем имя машины которой принадлежит public key
+       * В поле key копируем содержания файла ~/.ssh/id_rsa.pub
+
+        ```bash
+         $ clip < ~/.ssh/id_rsa.pub
+        ```
+
+       * Жмем Add SSH key
+
+1. После чего нужно добавить GitHub.com в ~/.ssh/known_hosts
 
  > $ssh -T git@github.com
 
-7. Проверяем протокол авторизации находясь в корне репозитария 
+1. Проверяем протокол авторизации находясь в корне репозитария 
 
- > $ cd ~/path_to_repository     
- > $ git remote -v
-
+ ```bash
+  $ cd ~/path_to_repository
+  $ git remote -v
+ ```
+ 
  Вывод команды при авторизации по HTTPS
  > $ `https://github.com/USERNAME/OTHERREPOSITORY.git`
 
