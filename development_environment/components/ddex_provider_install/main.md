@@ -31,6 +31,7 @@
 1. В переменную %PATH% прописываем путь до утилиты gacutil для .NET Framework 4.0.
 
  ** Для Windows10 (x64) это C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\NETFX 4.0 Tools **
+ <!-- тут стоп -->
 
 1. Запускаем командную строку cmd от имени администратора и проверяем что FirebirdSql.Data.FirebirdClient установлен в GAC
 
