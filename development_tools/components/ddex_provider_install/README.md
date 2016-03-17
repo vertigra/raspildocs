@@ -23,9 +23,10 @@
 
 1. Устанавливаем FirebirdSql.Data.FirebirdClient-4.10.0.0.msi.
 
-1. Распаковываем EntityFramework.Firebird-4.10.0.0-NET45.7z в папку с установленным клиентом Firebird.
+1. Распаковываем EntityFramework.Firebird-4.10.0.0-NET40 в папку с установленным клиентом Firebird.
 
  ** Для Windows10 (x64) это c:\Program Files (x86)\FirebirdClient\ **.
+ ** Для Windows10 (x32) это C:\Program Files\FirebirdClient\ **.
 
 1. В переменную %PATH% прописываем путь до утилиты gacutil для .NET Framework 4.0.
 
