@@ -1,37 +1,44 @@
-# Устaновка DDEX Provider for Visual Studio
+# Устaновка DDEX Provider for Visual Studio #
 
 ---
 
-## Рабочее окружение
+## Рабочее окружение ##
 
 * Операционная система Windows10 (x64)
 * Visual Studio 2015
 * .NET Framework 4.0.
 
-## Подготовка
+### Действительно (проверялось) для ###
 
-Для установки DDEX Provider необходимо скачать следующие файлы отсюда
+* Windows 10 (x 32)
+
+## Подготовка ##
+
+Для установки DDEX Provider необходимо скачать следующие файлы отсюда (архив .rar)
 
 * [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](files/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
 * [EntityFramework.Firebird-4.10.0.0-NET40.rar](files/EntityFramework.Firebird-4.10.0.0-NET40.rar)
 * [DDEXProvider-3.0.2.0.rar](files/DDEXProvider-3.0.2.0.rar)
 * [DDEXProvider-3.0.2.0-src.rar](files/DDEXProvider-3.0.2.0-src.rar)
 
-или с официального сайта [firebirdsql.org](http://www.firebirdsql.org/en/additional-downloads/)
+или с официального сайта [firebirdsql.org](http://www.firebirdsql.org/en/additional-downloads/) (архив .7z)
 
-## Установка
+## Установка ##
 
 1. Устанавливаем FirebirdSql.Data.FirebirdClient-4.10.0.0.msi.
 
-1. Распаковываем EntityFramework.Firebird-4.10.0.0-NET40 в папку с установленным клиентом Firebird.
+1. Распаковываем EntityFramework.Firebird-4.10.0.0-NET40 (.7z или .rar) в папку с установленным клиентом Firebird.
 
- ** Для Windows10 (x64) это c:\Program Files (x86)\FirebirdClient\ **.
- ** Для Windows10 (x32) это C:\Program Files\FirebirdClient\ **.
+ ** Для Windows10 (x64) это c:\Program Files (x86)\FirebirdClient\ **
+ ** Для Windows10 (x32) это C:\Program Files\FirebirdClient\ **
 
 1. В переменную %PATH% прописываем путь до утилиты gacutil для .NET Framework 4.0.
 
- ** Для Windows10 (x64) это C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\NETFX 4.0 Tools **
- <!-- тут стоп -->
+ ** Для Windows10 (x64) это C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\NETFX 4.0 Tools **  
+ ** Для Windows10 (x86) это C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools **
+
+ Как установить gacutil для Windows 10 можно посмотреть [здесь](https://idoneitmyself.com/2015/02/10/where-do-i-get-gacutil-exe/).
+ (Проверено на Windows 10 (x32))
 
 1. Запускаем командную строку cmd от имени администратора и проверяем что FirebirdSql.Data.FirebirdClient установлен в GAC
 
@@ -46,7 +53,7 @@
  (c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
 
  В глобальном кэше сборок содержатся следующие сборки:
-  FirebirdSql.Data.FirebirdClient, Version=4.10.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL
+ FirebirdSql.Data.FirebirdClient, Version=4.10.0.0, Culture=neutral, PublicKeyToken=3750abcc3150b00c, processorArchitecture=MSIL
 
  Число элементов = 1
  ```
@@ -67,15 +74,15 @@
  Сборка успешно добавлена в кэш
  ```
 
-1. Распаковываем DDEXProvider-3.0.2.0.7z в удобную директорию. Я распаковал её в c:\Program Files (x86)\FirebirdClient
+1. Распаковываем DDEXProvider-3.0.2.0.7z (или .rar) в удобную директорию. Я распаковал её в c:\Program Files (x86)\FirebirdClient
 
-1. Туда же распаковываем DDEXProvider-3.0.2.0-src.7z содержимое поддиректории архива /reg_files/VS2015
+1. Туда же распаковываем DDEXProvider-3.0.2.0-src.7z (или .rar) содержимое поддиректории архива /reg_files/VS2015
 
 1. Открываем файл FirebirdDDEXProvider64.reg с помощью блокнота. Находим строчку, которая содержит %path% и меняем его на полный путь к файлу FirebirdSql.VisualStudio.DataTools.dll
 
  (ветка \[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\14.0_Config\DataProviders\{92421248-F044-483A-8237-74C7FBC62971}]\)
 
- ```text
+ ```reg
  "CodeBase"="C:\\Program Files (x86)\\FirebirdDDEX\\FirebirdSql.VisualStudio.DataTools.dll"
  ```
 
@@ -83,7 +90,7 @@
 
 1. Теперь нужно отредактировать файл machine.config.
 
- ** Для Windows10 (x64) он находится по пути C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config **
+ ** Для Windows10 (x64 и x86) он находится по пути C:\Windows\Microsoft.NET\Framework\v4.0.30319\Config **
 
  Открываем этот файл блокнотом. Находим секцию
 
@@ -108,7 +115,7 @@
  </system.data>
  ```
 
- То же самое проделаем для machine.config. дирректории Framework64
+ То же самое проделаем для machine.config. дирректории Framework64 (не существует для x32)
 
  **Для Windows10 (x64) он находится по пути c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\**
 
@@ -141,6 +148,6 @@
 
  ![Проверка подключения к Firebird](pic/test_connect_to_firebird_to_vs_2015.jpg)
 
-## Ссылки
+## Ссылки ##
 
 Написано по мотивам [этой](https://m.habrahabr.ru/post/278405/) статьи.
