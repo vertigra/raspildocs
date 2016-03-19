@@ -64,7 +64,7 @@
 
 1. В настройках **профиля** (Setting) на GitHub.com в секции SSH keys следует добавить public ключ.
 
-       * Нажимаем New SSH key
+       * Нажимаем New SSH key  
        * В поле Title указываем имя машины которой принадлежит public key
        * В поле key копируем содержания файла ~/.ssh/id_rsa.pub
 
