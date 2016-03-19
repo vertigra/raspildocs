@@ -1,3 +1,3 @@
 # Шпаргалка по Markdown
 
-![Шпаргалка по Markdown](pic/markdown_cheatsheet.jpg)
+![Шпаргалка по Markdown](_pic/markdown_cheatsheet.jpg)
