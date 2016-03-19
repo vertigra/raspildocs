@@ -129,15 +129,15 @@
 1. Тест (команда "git commit" без указанного пароля passphrase)
 
  ```bash
-  $ touch tested_file
-  $ git add tested_file
-  $ git commit -m "Tested file commit
+ $ touch tested_file
+ $ git add tested_file
+ $ git commit -m "Tested file commit
 
  [master 0ce57ec] Tested file commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 tested_file
 
-  $ git push origin master
+ $ git push origin master
  ```
 
 ## Дополнительная настройка GitBash и Visual Studio Code с паролем passphrase ##
