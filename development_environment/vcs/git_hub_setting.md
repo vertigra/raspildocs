@@ -9,7 +9,7 @@
 * Windows 10 (x32)
 * [Git-2.7.2-32-bit.exe](https://git-scm.com/download/win)
 
-### Настройка git c авторизацией по SSH без ключа passphrase
+## Настройка git c авторизацией по SSH без ключа passphrase ##
 
 С помощью команды "git clone" скопировать репозитарий в локальную дирректорию.
 
@@ -46,15 +46,13 @@
 
 1. После чего следует запустить ssh-agent
 
+ ```bash
  Git Bash
 
- ```bash
   $ eval "$(ssh-agent -s)"
- ```
 
  Git for Windows
 
- ```bash
   $ eval $(ssh-agent -s)
  ```
 
@@ -70,15 +68,17 @@
        * В поле Title указываем имя машины которой принадлежит public key
        * В поле key копируем содержания файла ~/.ssh/id_rsa.pub
 
-        ```bash
-         $ clip < ~/.ssh/id_rsa.pub
-        ```
+ ```bash
+        $ clip < ~/.ssh/id_rsa.pub
+ ```
 
        * Жмем Add SSH key
 
 1. После чего нужно добавить GitHub.com в ~/.ssh/known_hosts
 
- > $ssh -T git@github.com
+ ```bash
+  $ ssh -T git@github.com
+ ```
 
 1. Проверяем протокол авторизации находясь в корне репозитария 
 
@@ -86,78 +86,102 @@
   $ cd ~/path_to_repository
   $ git remote -v
  ```
- 
+
  Вывод команды при авторизации по HTTPS
- > $ `https://github.com/USERNAME/OTHERREPOSITORY.git`
+
+ ```bash
+  $ https://github.com/USERNAME/OTHERREPOSITORY.git`
+ ```
 
  Вывод команды при авторизации по SSH
- > $ git@github.com:USERNAME/OTHERREPOSITORY.git
+
+ ```bash
+  $ git@github.com:USERNAME/OTHERREPOSITORY.git
+ ```
 
  Для корректной работы нам необходимо переключиться в режим авторизации по SSH (если вывод команды соответсвует HTTPS)
- > $ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
 
-8. Далее необходимо задать поведение команды "git push" по умолчанию.
+ ```bash
+  $ git remote set-url origin git@github.com:USERNAME/OTHERREPOSITORY.git
+ ```
 
- > $ git config --global push.default simple
+1. Далее необходимо задать поведение команды "git push" по умолчанию.
+
+ ```bash
+  $ git config --global push.default simple
+ ```
 
  (изменения отправляются только из текущей ветки в ветку с тем же именем, в случае если локальная ветка назначена для интеграции с удалённой веткой)
 
-9. Для учета статистки комитов на графике contributors необходимо *обязательно* задать user.email тот же что указан в
-primary GitHub email address в настройках профиля на GitHub.com
+1. Для учета статистки комитов на графике contributors необходимо *обязательно* задать user.email тот же что указан в primary GitHub email
+ address в настройках профиля на GitHub.com
 
- > $ git config --global user.email "your_email@example.com"
+ ```bash
+  $ git config --global user.email "your_email@example.com"
+ ```
 
  Имя пользователя задается командой (опционально)
- > $ git config --global user.name "your_user_name_on_git_hub"
 
-10. Тест (команда "git commit" без указанного пароля passphrase)
-
- > $ touch tested_file   
- > $ git add tested_file   
- > $ git commit -m "Tested file commit"  
+ ```bash
+  $ git config --global user.name "your_user_name_on_git_hub"
  ```
+
+1. Тест (команда "git commit" без указанного пароля passphrase)
+
+ ```bash
+  $ touch tested_file
+  $ git add tested_file
+  $ git commit -m "Tested file commit
+
  [master 0ce57ec] Tested file commit
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 tested_file  
- ```
- > $ git push origin master
+ create mode 100644 tested_file
 
-### Дополнительная настройка GitBash и Visual Studio Code с паролем passphrase
+  $ git push origin master
+ ```
+
+## Дополнительная настройка GitBash и Visual Studio Code с паролем passphrase ##
 
 Для того что бы не вводить пароль passphrase каждый раз при команде "git push" необходимо произвести
 действия описанные ниже.
 
-* Настройка GitBush
+Настройка GitBush
 
- 1. Указать пользователя на GitHub.com   
- > $ ssh -T billy.anyteen@github.com    
- ```
+1. Указать пользователя на GitHub.com
+
+ ```bash
+ $ ssh -T billy.anyteen@github.com
+
  Hi username! You've successfully authenticated...
  ```
- 
- 2. Проверить прикреплен ли открытый ключ к учетной записи
-  
-   Для версии OpenSSH 6.7 и старше
-   > $ ssh-add -l
 
-   Для версии OpenSSH 6.8 и новее
-   > $ ssh-add -l -E md5
+1. Проверить прикреплен ли открытый ключ к учетной записи
 
- После этого команда git push d GitBash должна проходить без запроса пароля passphare
+ ```bash
+ Для версии OpenSSH 6.7 и старше
+ $ ssh-add -l
 
-* Visual Studio Code
+ Для версии OpenSSH 6.8 и новее
+ $ ssh-add -l -E md5
+ ```
 
- При запуске Visual Studio Code обычным способом встроенный клиент
- git работать не будет (ошибка Permission denied (publickey)). Для того что бы он работал необходимо запустить 
- Visual Studio Code следущим способом:
-  
-  * Открыть Git CMD и набрать следующие команды
-  > C:\Users\your_user_name> start-ssh-agent
-   ```
-   Found ssh-agent at 2332
-   Found ssh-agent socket at /tmp/ssh-z4dlWUinmVkV/agent.4016
-   ```
-  > C:\Users\your_user_name> code (вызывает Visual Studio Code)
+ После этого команда git push в GitBash должна проходить без запроса пароля passphare
+
+Visual Studio Code
+
+При запуске Visual Studio Code обычным способом встроенный клиент git работать не будет (ошибка Permission denied (publickey)).
+Для того что бы он работал необходимо запустить Visual Studio Code следущим способом:
+
+Открыть Git CMD и набрать следующие команды
+
+```cmd
+C:\Users\your_user_name> start-ssh-agent
+
+Found ssh-agent at 2332
+Found ssh-agent socket at /tmp/ssh-z4dlWUinmVkV/agent.4016
+
+C:\Users\your_user_name> code (вызывает Visual Studio Code)
+```
 
 
 ### Ссылки
