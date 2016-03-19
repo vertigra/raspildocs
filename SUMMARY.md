@@ -14,6 +14,6 @@
     * [Структура каталогов](development_conventions/document_standart/catalog_structure.md)
     * [Форматирование документов](development_conventions/document_standart/format_code_in_docs.md)
     * [Шпаргалка Markdown](development_conventions/document_standart/markdown_cheatsheet.md)
-* [План развития(Roadmap)](roadmap/main.md)
+* [План развития (Roadmap)](roadmap/main.md)
 * [Описание проектов и библиотек](projects/main.md)
 * [Остальное](others/main.md)

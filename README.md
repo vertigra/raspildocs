@@ -8,7 +8,7 @@
 
 * [Среда и инструменты разработки](development_environment/main.md)
 * [Стандарты проектирования и програмированния](development_conventions/main.md)
-* [План развития(Roadmap)](roadmap/main.md)
+* [План развития (Roadmap)](roadmap/main.md)
 * [Описание проектов и библиотек](projects/main.md)
 * [Остальное](others/main.md)
 
