@@ -2,7 +2,14 @@
 
 ---
 
-<!--todo Перенести куданить -->
+## Документация к Markdown
+
+* [Блог разработчика John Gruber на daringfireball.net (en)](http://daringfireball.net/projects/markdown/)
+* [Markdown на aboutslack.info (ru)](http://aboutslack.info/pages/development/markdown-cheatsheet.html)
+* [Markdown на wiki](https://ru.wikipedia.org/wiki/Markdown)
+* [Шпаргалка по Markdown](markdown_cheatsheet.md)
+
+<!--перенести -->
 
 ## Автоматизация отслеживания ошибок в разметке
 
