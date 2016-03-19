@@ -89,7 +89,7 @@
   $ ssh -T git@github.com
  ```
 
-1. Проверяем протокол авторизации находясь в корне репозитария 
+1. Проверяем протокол авторизации находясь в корне репозитария
 
  ```bash
   $ cd ~/path_to_repository
@@ -191,7 +191,6 @@ Found ssh-agent socket at /tmp/ssh-z4dlWUinmVkV/agent.4016
 
 C:\Users\your_user_name> code (вызывает Visual Studio Code)
 ```
-
 
 ### Ссылки
 

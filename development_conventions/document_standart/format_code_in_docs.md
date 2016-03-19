@@ -13,7 +13,7 @@
 
 ## Автоматизация отслеживания ошибок в разметке
 
-Для отслеживания ошибок удобно использовать плагин Visual Studio Code 
+Для отслеживания ошибок удобно использовать плагин Visual Studio Code
 [markdownlintext](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
 
 Инстукция по установке с сайта разработчика
