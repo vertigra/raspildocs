@@ -9,6 +9,11 @@
 * Windows 10 (x32)
 * [Git-2.7.2-32-bit.exe](https://git-scm.com/download/win)
 
+### Действительно (проверялось) для ###
+
+* Windows 10 (x 64)
+* [Git-2.7.4-64-bit.exe](https://git-scm.com/download/win)
+
 ## Настройка git c авторизацией по SSH без ключа passphrase ##
 
 С помощью команды "git clone" скопировать репозитарий в локальную дирректорию.
@@ -62,17 +67,21 @@
   $ ssh-add ~/.ssh/id_rsa
  ```
 
-1. В настройках **профиля** (Setting) на GitHub.com в секции SSH keys следует добавить public ключ.
+1. В настройках **профиля** (Setting) на GitHub.comв секции SSH keys следует добавить public ключ.
 
-       * Нажимаем New SSH key  
-       * В поле Title указываем имя машины которой принадлежит public key
-       * В поле key копируем содержания файла ~/.ssh/id_rsa.pub
+ *Не путать с настройками репозитария *
+
+    * Нажимаем New SSH key
+    * В поле Title указываем имя машины которой принадлежит public key
+    * В поле key копируем содержания файла ~/.ssh/id_rsa.pub  
+    (* Для Windows 10 (x64) + Git-2.7.4 команда clip у меня не работает, можно открыть
+    файл ~/.ssh/id_rsa.pub блокнотом и **полностью** скопировать его содержимое  *)
 
  ```bash
-        $ clip < ~/.ssh/id_rsa.pub
+      $ clip < ~/.ssh/id_rsa.pub
  ```
 
-       * Жмем Add SSH key
+    * Жмем Add SSH key
 
 1. После чего нужно добавить GitHub.com в ~/.ssh/known_hosts
 
