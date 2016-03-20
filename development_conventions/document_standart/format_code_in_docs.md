@@ -1,8 +1,12 @@
-# Соглашение по форматированию кода Markdown в документах
+# Соглашение по форматированию кода Markdown в документах #
 
 ---
 
-## Документация к Markdown
+## Кодировка документов ##
+
+**UTF-8 (без BOM) **
+
+## Документация к Markdown ##
 
 * [Блог разработчика John Gruber на daringfireball.net (en)](http://daringfireball.net/projects/markdown/)
 * [Markdown на aboutslack.info (ru)](http://aboutslack.info/pages/development/markdown-cheatsheet.html)
@@ -11,7 +15,7 @@
 
 <!--перенести -->
 
-## Автоматизация отслеживания ошибок в разметке
+## Автоматизация отслеживания ошибок в разметке ##
 
 Для отслеживания ошибок удобно использовать плагин Visual Studio Code
 [markdownlintext](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
@@ -26,7 +30,7 @@
 
 [Инструкция по управлению расширениями Visual Studio Code](https://code.visualstudio.com/docs/editor/extension-gallery?pub=DavidAnson&ext=vscode-markdownlint)
 
-## Заголовок статьи
+## Заголовок статьи ##
 
 ```markdown
 # Название статьи
