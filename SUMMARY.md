@@ -6,7 +6,7 @@
     * [Gitbook Ace Plugin](development_environment/components/syntax_highlighting.md)
   * [VCS](development_environment/vcs/main.md)
     * [GitHib with Gitbook](development_environment/vcs/git_hub_setting.md)
-    * [TorstieHg первый запуск](development_environment/vcs/mercurial_setting.md)
+    * [TortoiseHg первый запуск](development_environment/vcs/mercurial_setting.md)
   * [Unit Test](development_environment/test/main.md)
     * [Запуск Nunit тестов](development_environment/test/test_adapter/main.md)
   * [IDE](development_environment/ide/main.md)
