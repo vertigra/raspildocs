@@ -13,7 +13,7 @@
 * [Markdown на wiki](https://ru.wikipedia.org/wiki/Markdown)
 * [Шпаргалка по Markdown](markdown_cheatsheet.md)
 
-[Плагин для отслеживания ошибок в разметке Markdown](development_environment/components/markdowlintext_plugin.md)
+[Плагин для отслеживания ошибок в разметке Markdown](/development_environment/components/markdowlintext_plugin.md)
 
 ## Заголовок статьи ##
 
