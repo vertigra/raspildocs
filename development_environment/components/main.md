@@ -17,3 +17,8 @@
 * [Плагин Copy Code](copy_code/main.md)
 * [Плагин hide-published-with](https://plugins.gitbook.com/plugin/hide-published-with) скрывает
  из оглавления книги надпись Published with GitBook.
+
+## Плагины Visual Studio Code ##
+
+* Отслеживание ошибок в разметке Markdown - [Markdownlintext](markdowlintext_plugin.md)
+* [Инструкция по управлению расширениями Visual Studio Code](https://code.visualstudio.com/docs/editor/extension-gallery?pub=DavidAnson&ext=vscode-markdownlint)

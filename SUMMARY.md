@@ -5,6 +5,7 @@
     * [DDEX Provider](development_environment/components/ddex_provider_install/main.md)
     * [Gitbook Ace Plugin](development_environment/components/syntax_highlighting.md)
     * [GitBook Copy Code](development_environment/components/copy_code/main.md)
+    * [Markdownlintext for VS Code](development_environment/components/markdowlintext_plugin.md)
   * [VCS](development_environment/vcs/main.md)
     * [GitHib with Gitbook](development_environment/vcs/git_hub_setting.md)
     * [TortoiseHg первый запуск](development_environment/vcs/mercurial_setting.md)

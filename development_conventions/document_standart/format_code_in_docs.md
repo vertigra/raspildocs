@@ -13,27 +13,12 @@
 * [Markdown на wiki](https://ru.wikipedia.org/wiki/Markdown)
 * [Шпаргалка по Markdown](markdown_cheatsheet.md)
 
-<!--перенести -->
-
-## Автоматизация отслеживания ошибок в разметке ##
-
-Для отслеживания ошибок удобно использовать плагин Visual Studio Code
-[markdownlintext](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
-
-Инстукция по установке с сайта разработчика
-
-1. Open Visual Studio Code
-1. Press Ctrl+P to open the Quick Open dialog
-1. Type ext install markdownlint to find the extension
-1. Press Enter or click the cloud icon to install it
-1. Restart Visual Studio Code if prompted
-
-[Инструкция по управлению расширениями Visual Studio Code](https://code.visualstudio.com/docs/editor/extension-gallery?pub=DavidAnson&ext=vscode-markdownlint)
+[Плагин для отслеживания ошибок в разметке Markdown](development_environment/components/markdowlintext_plugin.md)
 
 ## Заголовок статьи ##
 
 ```markdown
-# Название статьи
+# Название статьи #
 (пустая строка)
 ---
 (пустая строка)
@@ -41,20 +26,20 @@
 
 На конце заголовка не должно быть точки.
 
-## Подзаголовки в статье
+## Подзаголовки в статье ##
 
 ```markdown
 
 (пустая строка)
 
-## Подзаголовок
+## Подзаголовок ##
 
 (пустая строка)
     ```
 
 На конце заголовка не должно быть точки.
 
-## Коментарии/todo
+## Коментарии/todo ##
 
 ```markdown
 (пустая строка)
@@ -62,7 +47,7 @@
 (пустая строка)
     ```
 
-## Оформление простых блоков кода
+## Оформление простых блоков кода ##
 
 Простые блоки кода отделяются блоком  /```langure_name `/ в начале блока и символами /```/ в конце. Например
 
