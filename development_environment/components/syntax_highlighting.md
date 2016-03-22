@@ -1,8 +1,8 @@
-# GitBook. Приемы работы
+# Подсветка синтаксиса с помощью плагина GitBook Ace Plugin #
 
 ---
 
-## Подсветка кода
+## Подсветка кода ##
 
 Для подсветки кода используется плагин [GitBook Ace Plugin.](https://plugins.gitbook.com/plugin/ace)
 Базовый синтаксис который следует использовать для подсветки кода:
@@ -39,7 +39,7 @@ theme: the theme for the editor, the default is 'chrome'.
 * coffee
 * ...
 
-Пример работы.
+## Пример работы ##
 
 {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
 
