@@ -1,5 +1,7 @@
 # Автоматизация отслеживания ошибок в разметке #
 
+## Инсталяция ##
+
 Для отслеживания ошибок удобно использовать плагин Visual Studio Code
 [markdownlintext](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
 
@@ -10,4 +12,6 @@
 1. Type ext install markdownlint to find the extension
 1. Press Enter or click the cloud icon to install it
 1. Restart Visual Studio Code if prompted
+
+
 

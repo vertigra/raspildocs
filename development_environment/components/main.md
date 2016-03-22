@@ -15,8 +15,7 @@
 
 * [Плагин GitBook Ace Plugin](syntax_highlighting.md) для подсветки синтаксиса кода.
 * [Плагин Copy Code](copy_code/main.md)
-* [Плагин hide-published-with](https://plugins.gitbook.com/plugin/hide-published-with) скрывает
- из оглавления книги надпись Published with GitBook.
+* [Плагин hide-published-with](https://plugins.gitbook.com/plugin/hide-published-with) скрывает из оглавления книги надпись Published with GitBook.
 
 ## Плагины Visual Studio Code ##
 
