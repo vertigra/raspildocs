@@ -10,5 +10,5 @@
 
 ## Mercurial ##
 
-[Инсталяция и настройка tortoisehg для работы с основным репозитарием кода](mercurial_setting.md)
+[Инсталяция и настройка tortoisehg для работы с основным репозитарием кода](mercurial_setting.md)  
 [Mercurial правила работы с репозитарием](development_environment/vcs/mercurial_terms_of_use/main.md)
