@@ -9,6 +9,7 @@
   * [VCS](development_environment/vcs/main.md)
     * [GitHib with Gitbook](development_environment/vcs/git_hub_setting.md)
     * [TortoiseHg первый запуск](development_environment/vcs/mercurial_setting.md)
+    * [Mercurial правила использования](development_environment/vcs/mercurial_terms_of_use/main.md)
   * [Unit Test](development_environment/test/main.md)
     * [Запуск Nunit тестов](development_environment/test/test_adapter/main.md)
   * [IDE](development_environment/ide/main.md)
