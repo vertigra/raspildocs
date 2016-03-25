@@ -148,7 +148,7 @@
 
  Находим обозреватель серверов и пытаемся подключиться к одной из существующих баз данных Firebird.
 
- ![Проверка подключения к Firebird](pic/test_connect_to_firebird_to_vs_2015.jpg)
+ ![Проверка подключения к Firebird](_pic/test_connect_to_firebird_to_vs_2015.jpg)
 
 ## Ссылки ##
 
