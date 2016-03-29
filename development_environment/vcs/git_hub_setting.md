@@ -1,7 +1,5 @@
 # Настройка GitHib для работы с репозитарием документов #
 
-<!--todo добавить какие файлы добавить в .gitignore и как удалить их из индекса (git rm --cached .gitignore) -->
-
 ---
 
 ## Рабочее окружение ##
@@ -192,7 +190,17 @@ Found ssh-agent socket at /tmp/ssh-z4dlWUinmVkV/agent.4016
 C:\Users\your_user_name> code (вызывает Visual Studio Code)
 ```
 
-### Ссылки
+## Полезные команды ##
+
+После добавления папки или файла в .gitignore необходимо также удалить его из индекса
+с помощю команды ```git rm --cached file_name```.
+Например:
+
+```bash
+git rm --cached .gitignore
+```
+
+## Ссылки ##
 
 [SSH Setting on GitHub.com](https://help.github.com/categories/ssh/)
 
