@@ -193,7 +193,7 @@ C:\Users\your_user_name> code (вызывает Visual Studio Code)
 ## Полезные команды ##
 
 После добавления папки или файла в .gitignore необходимо также удалить его из индекса
-с помощю команды ```git rm --cached file_name```.
+с помощью команды `git rm --cached file_name`.
 Например:
 
 ```bash
