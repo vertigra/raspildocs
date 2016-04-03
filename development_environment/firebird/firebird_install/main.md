@@ -33,11 +33,17 @@
 * Скопировать библиотеку [swnd6fb.dll](file/swnd6fb.dll) в папку
   * (Для x64) C:\Program Files (x86)\Firebird\Firebird_1_5\UDF
 * Скопировать базы первого и второго отделов
-* Прописать в aliases.conf псевдонимы для баз данных  
-    sw_base = путь/до/базы/данных/первого/отдела  
-    sw_base_sync = путь/до/базы/данных/второго/отдела  
+* Прописать в aliases.conf псевдонимы для баз данных
+  
+ ```conf
+ sw_base = путь/до/базы/данных/первого/отдела  
+ sw_base_sync = путь/до/базы/данных/второго/отдела
+ ```
  Например:  
-    dummy = c:\data\dummy.fdb
+
+ ```conf
+ dummy = c:\data\dummy.fdb
+ ```
 
 Для теста можно сделать buckup/restore database.
 
