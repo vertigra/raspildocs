@@ -13,6 +13,8 @@
   * [Unit Test](development_environment/test/main.md)
     * [Запуск Nunit тестов](development_environment/test/test_adapter/main.md)
   * [IDE](development_environment/ide/main.md)
+  * [Firebird](development_environment/firebird/main.md)
+    * [Firebird. Install](development_environment/firebird/firebird_install/main.md)
 * [Стандарты проектирования и програмированния](development_conventions/main.md)
   * [Стандарты документации](development_conventions/document_standart/main.md)
     * [Структура каталогов](development_conventions/document_standart/catalog_structure.md)

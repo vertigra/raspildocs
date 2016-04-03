@@ -56,3 +56,4 @@
 
 ## Firebird ##
 
+[Настройка Firebird](firebird/main.md)
