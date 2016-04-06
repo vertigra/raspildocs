@@ -42,3 +42,13 @@
  Категория: feature request
 
 ---
+
+---
+
+* ***Project: BarCodeReader***  
+ Замер размеров штапика с помощью сканера.
+
+ Исполнитель: nesterov  
+ Категория: feature request
+
+---
