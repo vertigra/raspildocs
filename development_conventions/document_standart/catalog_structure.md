@@ -20,6 +20,7 @@ raspildocs
  |  |-/ide (ветка "IDE")
  |  |-/test (ветка "Unit Test")
  |  |-/vcs (ветка "VCS")
+ |  |-/firebird (ветка Firebird)
  |  
  |-/others (ветка "Остальные")
  |-/projects (ветка "Описания проектов и библиотек")
@@ -49,7 +50,9 @@ raspildocs
  |  |  |-main.md
  |  |-/test
  |  |  |-main.md
- |  |-vcs
+ |  |-/vcs
+ |  |  |-main.md
+ |  |-/firebird
  |  |  |-main.md
  |  |-main.md
  |  

@@ -18,10 +18,10 @@
 
 Для установки DDEX Provider необходимо скачать следующие файлы отсюда (архив .rar)
 
-* [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](files/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
-* [EntityFramework.Firebird-4.10.0.0-NET40.rar](files/EntityFramework.Firebird-4.10.0.0-NET40.rar)
-* [DDEXProvider-3.0.2.0.rar](files/DDEXProvider-3.0.2.0.rar)
-* [DDEXProvider-3.0.2.0-src.rar](files/DDEXProvider-3.0.2.0-src.rar)
+* [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](_files/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
+* [EntityFramework.Firebird-4.10.0.0-NET40.rar](_files/EntityFramework.Firebird-4.10.0.0-NET40.rar)
+* [DDEXProvider-3.0.2.0.rar](_files/DDEXProvider-3.0.2.0.rar)
+* [DDEXProvider-3.0.2.0-src.rar](_files/DDEXProvider-3.0.2.0-src.rar)
 
 или с официального сайта [firebirdsql.org](http://www.firebirdsql.org/en/additional-downloads/) (архив .7z)
 
