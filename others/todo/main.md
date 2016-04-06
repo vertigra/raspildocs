@@ -26,3 +26,11 @@
  Категория: functional improvement
 
 ---
+
+* ***Poject: raspildocs***  
+ Подобрать плагин для установки темы по умолчанию Night, шрифт Serif.
+
+ Исполнитель: nesterov  
+ Категория: functional improvement
+
+---
