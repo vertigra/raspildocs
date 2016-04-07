@@ -2,4 +2,4 @@
 
 ---
 
-[TODO List](https://github.com/issues)
+[TODO List](https://github.com/vertigra/raspildocs/issues)

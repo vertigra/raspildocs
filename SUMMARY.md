@@ -23,4 +23,4 @@
 * [План развития (Roadmap)](roadmap/main.md)
 * [Описание проектов и библиотек](projects/main.md)
 * [Остальное](others/main.md)
-  * [TODO](https://github.com/issues)
+  * [TODO](https://github.com/vertigra/raspildocs/issues)
