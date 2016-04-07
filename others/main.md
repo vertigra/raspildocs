@@ -2,4 +2,4 @@
 
 ---
 
-[TODO List](todo/main.md)
+[TODO List](https://github.com/issues)
