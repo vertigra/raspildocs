@@ -24,4 +24,4 @@
 * [Описание проектов и библиотек](projects/main.md)
 * [Остальное](others/main.md)
   * [TODO](https://github.com/vertigra/raspildocs/milestones)
-  * [Gacutil on Windows 10(x32)](other/gacutil/main.md)
+  * [Gacutil on Windows 10(x32)](others/gacutil/main.md)
