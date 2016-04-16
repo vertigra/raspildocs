@@ -39,7 +39,7 @@
  ** Для Windows10 (x64) это C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\NETFX 4.0 Tools **  
  ** Для Windows10 (x86) это C:\Program Files\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools **
 
- Как установить gacutil для Windows 10 можно посмотреть [здесь](https://idoneitmyself.com/2015/02/10/where-do-i-get-gacutil-exe/).
+ Как установить gacutil для Windows 10 можно посмотреть [здесь](http://development.nesterof.com/others/gacutil/main.html).
  (Проверено на Windows 10 (x32))
 
 1. Запускаем командную строку cmd от имени администратора и проверяем что FirebirdSql.Data.FirebirdClient установлен в GAC
