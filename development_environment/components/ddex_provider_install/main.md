@@ -18,10 +18,10 @@
 
 Для установки DDEX Provider необходимо скачать следующие файлы отсюда (архив .rar)
 
-* [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](_files/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
-* [EntityFramework.Firebird-4.10.0.0-NET40.rar](_files/EntityFramework.Firebird-4.10.0.0-NET40.rar)
-* [DDEXProvider-3.0.2.0.rar](_files/DDEXProvider-3.0.2.0.rar)
-* [DDEXProvider-3.0.2.0-src.rar](_files/DDEXProvider-3.0.2.0-src.rar)
+* [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
+* [EntityFramework.Firebird-4.10.0.0-NET40.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/EntityFramework.Firebird-4.10.0.0-NET40.rar)
+* [DDEXProvider-3.0.2.0.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/DDEXProvider-3.0.2.0.rar)
+* [DDEXProvider-3.0.2.0-src.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/DDEXProvider-3.0.2.0-src.rar)
 
 или с официального сайта [firebirdsql.org](http://www.firebirdsql.org/en/additional-downloads/) (архив .7z)
 
@@ -31,8 +31,8 @@
 
 1. Распаковываем EntityFramework.Firebird-4.10.0.0-NET40 (.7z или .rar) в папку с установленным клиентом Firebird.
 
- **Для Windows10 (x64) это c:\Program Files (x86)\FirebirdClient\ **  
- **Для Windows10 (x32) это C:\Program Files\FirebirdClient\ **  
+ **Для Windows10 (x64) это c:\Program Files (x86)\FirebirdClient\ **
+ **Для Windows10 (x32) это C:\Program Files\FirebirdClient\ **
 
 1. В переменную %PATH% прописываем путь до утилиты gacutil для .NET Framework 4.0.
 

@@ -10,9 +10,9 @@
 
 Для работы с проектом следует использовать последний релиз Firebird 1.5:
 
-tested
+test
 
-* ![Firebird-1.5.6.5026-0-Win32](file/Firebird-1.5.6.5026-0-Win32.exe)
+* [Firebird-1.5.6.5026-0-Win32](https://development.nesterof.com/development_environment/firebird/firebird_install/_file/Firebird-1.5.6.5026-0-Win32.exe)
 * [Сайт разработчиков](http://www.firebirdsql.org/en/firebird-1-5/)
 
 ## Инсталяция ##
@@ -32,7 +32,7 @@ tested
 
 После инсталяции следует произвести следующие действия (не требуют установки Супер Окон)
 
-* Скопировать библиотеку [swnd6fb.dll](_file/swnd6fb.dll) в папку
+* Скопировать библиотеку [swnd6fb.dll](https://development.nesterof.com/development_environment/firebird/firebird_install/_file/swnd6fb.dll) в папку
   * (Для x64) C:\Program Files (x86)\Firebird\Firebird_1_5\UDF
 * Скопировать базы первого и второго отделов
 * Прописать в aliases.conf псевдонимы для баз данных
