@@ -18,10 +18,10 @@
 
 Для установки DDEX Provider необходимо скачать следующие файлы отсюда (архив .rar)
 
-* [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
-* [EntityFramework.Firebird-4.10.0.0-NET40.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/EntityFramework.Firebird-4.10.0.0-NET40.rar)
-* [DDEXProvider-3.0.2.0.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/DDEXProvider-3.0.2.0.rar)
-* [DDEXProvider-3.0.2.0-src.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_files/DDEXProvider-3.0.2.0-src.rar)
+* [FirebirdSql.Data.FirebirdClient-4.10.0.0.msi](https://development.nesterof.com/development_environment/components/ddex_provider_install/_file/FirebirdSql.Data.FirebirdClient-4.10.0.0.msi)
+* [EntityFramework.Firebird-4.10.0.0-NET40.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_file/EntityFramework.Firebird-4.10.0.0-NET40.rar)
+* [DDEXProvider-3.0.2.0.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_file/DDEXProvider-3.0.2.0.rar)
+* [DDEXProvider-3.0.2.0-src.rar](https://development.nesterof.com/development_environment/components/ddex_provider_install/_file/DDEXProvider-3.0.2.0-src.rar)
 
 или с официального сайта [firebirdsql.org](http://www.firebirdsql.org/en/additional-downloads/) (архив .7z)
 
