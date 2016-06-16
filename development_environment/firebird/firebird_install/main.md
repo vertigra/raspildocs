@@ -10,7 +10,9 @@
 
 Для работы с проектом следует использовать последний релиз Firebird 1.5:
 
-* [Firebird-1.5.6.5026-0-Win32](file/Firebird-1.5.6.5026-0-Win32.exe)
+tested
+
+* ![Firebird-1.5.6.5026-0-Win32](file/Firebird-1.5.6.5026-0-Win32.exe)
 * [Сайт разработчиков](http://www.firebirdsql.org/en/firebird-1-5/)
 
 ## Инсталяция ##
