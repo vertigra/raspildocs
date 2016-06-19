@@ -10,7 +10,7 @@
 
 ### Действительно (проверялось) для ###
 
-* Windows 10 (x 32)
+* Windows 10 (x32)
 * Visual Studio 2015
 * .NET Framework 4.0.
 
