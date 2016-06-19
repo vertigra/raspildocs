@@ -25,3 +25,4 @@
 * [Остальное](others/main.md)
   * [TODO](https://github.com/vertigra/raspildocs/milestones)
   * [Gacutil on Windows 10(x32)](others/gacutil/main.md)
+  * [ODBC на Windows 2008 R2(x64)](others/ODBC/main.md)

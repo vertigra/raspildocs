@@ -1,15 +1,16 @@
-# Gacutil на Windows 10 (x32) #
+# Gacutil на Windows 10(x32) #
 
 ---
 
 ## Рабочее окружение ##
 
-* Операционная система Windows10 (x32)
+* Операционная система Windows10(x32)
 
 ## Дистрибутив ##
 
-Если на Windows 10 (x32) нет утилиты gacutil то следует скачать пакет Windows Software Development Kit (SDK) for
-Windows 8 на [сайте разработчиков](https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk#Related) или [здесь (web-installer)](_file/sdksetup_4.5.exe).
+Если на Windows 10(x32) нет утилиты gacutil то следует скачать пакет Windows Software Development Kit (SDK) for
+Windows 8 на [сайте разработчиков](https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk#Related)
+или [здесь (web-installer)](https://development.nesterof.com/raspildocs/others/gacutil/_file/sdksetup_4.5)
 
 ## Инсталяция ##
 
