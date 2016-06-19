@@ -10,7 +10,7 @@
 
 Если на Windows 10(x32) нет утилиты gacutil то следует скачать пакет Windows Software Development Kit (SDK) for
 Windows 8 на [сайте разработчиков](https://developer.microsoft.com/en-us/windows/downloads/windows-8-sdk#Related)
-или [здесь (web-installer)](https://development.nesterof.com/raspildocs/others/gacutil/_file/sdksetup_4.5)
+или [здесь (web-installer)](https://development.nesterof.com/others/gacutil/_file/sdksetup_4.5)
 
 ## Инсталяция ##
 

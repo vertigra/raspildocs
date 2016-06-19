@@ -8,7 +8,7 @@
 
 ## Дистрибутив ##
 
-* [Firebird_ODBC_2.0.2.153_x64.exe](https://development.nesterof.com/raspildocs/others/ODBC/_file/Firebird_ODBC_2.0.2.153_x64.exe)
+* [Firebird_ODBC_2.0.2.153_x64.exe](https://development.nesterof.com/others/ODBC/_file/Firebird_ODBC_2.0.2.153_x64.exe)
 
 ## Инсталяция ##
 
