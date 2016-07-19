@@ -16,13 +16,13 @@
 
 {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
 
-        [Test]
-        public void TestViewAddEditDelete(){
+[Test]
+public void TestViewAddEditDelete(){
 
-            const string name1 = "Test1";
-            const string name2 = "Test2";
-            //Assert.Fail("need uncomment and refactor");
-            //select groups
+const string name1 = "Test1";
+const string name2 = "Test2";
+//Assert.Fail("need uncomment and refactor");
+//select groups
             mView.SelectGroups();
             int firstCount = mView.GroupsView.Count;
 
