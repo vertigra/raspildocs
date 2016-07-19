@@ -5,7 +5,7 @@
 ## Алгоритм ##
 
 * Выборка данных запоминаем кол-во записей
-* добавляем записи(один или неск) - коммит
+* Добавляем записи(один или неск) - коммит
 * Опять выборка(с новой сессии), кол-во должно быть больше на кол-во добаленных
 * Потом из выбранных редактируем наши записи - коммит
 * Опять выборка(с новой сессии), проверяем что поменялись наши записи
@@ -72,7 +72,7 @@ public void TestViewAddEditDelete()
     Console.WriteLine(@"=== DELETE ===");
     mView.DeleteGroup(((IEnumerable<Group>)mView.GroupsView.SourceCollection).Where(item => item.GroupName == name2).First());
 
-    ////check at fin
+    //check at fin
     mView.SelectGroups();
     Assert.AreEqual(firstCount, mView.GroupsView.Count,"record count before check and after aren't equal");
 }
