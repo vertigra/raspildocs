@@ -17,8 +17,8 @@
 {%ace edit=false, lang='csharp', check=true, theme='coffee'%}
 
         [Test]
-        public void TestViewAddEditDelete()
-        {
+        public void TestViewAddEditDelete(){
+
             const string name1 = "Test1";
             const string name2 = "Test2";
             //Assert.Fail("need uncomment and refactor");
