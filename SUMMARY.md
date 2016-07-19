@@ -12,6 +12,7 @@
     * [Mercurial. Terms of use](development_environment/vcs/mercurial_terms_of_use/main.md)
   * [Unit Test](development_environment/test/main.md)
     * [Запуск Nunit тестов](development_environment/test/test_adapter/main.md)
+    * [Тестирование ORM](development_environment/test/test_orm.md)
   * [IDE](development_environment/ide/main.md)
   * [Firebird](development_environment/firebird/main.md)
     * [Firebird. Install](development_environment/firebird/firebird_install/main.md)
