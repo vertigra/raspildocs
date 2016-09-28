@@ -16,7 +16,7 @@
 6. Прописать в PATH путь до SDK C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4.0 Tools 
 7. Перезагрузка
 8. Установить TorstieHQ
-9.  ![TorstieHQ](Torstie install screen.png)
+![TorstieHQ](Torstie install screen.png)
 9. Перезапустить службу TeamCity Build Agent
 10. Установить Excel (возможно нет)
 11. Запустить Fierbird
