@@ -27,5 +27,5 @@
 * [Остальное](others/main.md)
    * [Gacutil on Windows 10(x32)](others/gacutil/main.md)
    * [ODBC на Windows 2008 R2(x64)](others/ODBC/main.md)
-   * Настройка агента TeamCity
+   * [Настройка агента TeamCity](others/nastroika_agenta_teamcity.md)
 
