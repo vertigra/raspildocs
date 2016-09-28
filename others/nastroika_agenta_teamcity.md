@@ -4,7 +4,7 @@
 
 ## Рабочее окружение ##
 
-* Windows 7 (виртуальная машина на Xen 7)
+* Windows 7(x32) (виртуальная машина на Xen 7)
 
 ## Настройка ##
 
@@ -15,7 +15,8 @@
 5. Установить  Windows SDK for Windows 7 and .NET Framework 4 [отсюда](https://www.microsoft.com/en-us/download/confirmation.aspx?id=8442)
 6. Прописать в PATH путь до SDK C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4.0 Tools 
 7. Перезагрузка
-8. Установить TorstieHQ ![TorstieHQ](Torstie install screen.png)
+8. Установить TorstieHQ
+9.  ![TorstieHQ](Torstie install screen.png)
 9. Перезапустить службу TeamCity Build Agent
 10. Установить Excel (возможно нет)
 11. Запустить Fierbird
