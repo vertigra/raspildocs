@@ -15,4 +15,4 @@
 5. Установить  Windows SDK for Windows 7 and .NET Framework 4 [отсюда](https://www.microsoft.com/en-us/download/confirmation.aspx?id=8442)
 6. Прописать в PATH путь до SDK C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\NETFX 4.0 Tools 
 7. Перезагрузка
-8. Установить TorstieHQ 
+8. Установить TorstieHQ ![TorstieHQ](Torstie install screen.png)
