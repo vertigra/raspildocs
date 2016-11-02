@@ -30,7 +30,7 @@ test
 
 ## Настройка после инсталяции ##
 
-После инсталяции следует произвести следующие действия (не требуют установки Супер Окон)
+После инсталяции следует произвести следующие действия
 
 * Скопировать библиотеку [swnd6fb.dll](https://development.nesterof.com/development_environment/firebird/firebird_install/_file/swnd6fb.dll) в папку
   * (Для x64) C:\Program Files (x86)\Firebird\Firebird_1_5\UDF
