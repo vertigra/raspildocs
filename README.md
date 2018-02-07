@@ -17,3 +17,5 @@
 [Соглашение по структуре каталогов документации в репозитарии](gitbook/catalog_structure.md).
 
 История обновлений репозитария находится [здесь](https://github.com/vertigra/raspildocs/commits/master)
+
+**Obsolete**
